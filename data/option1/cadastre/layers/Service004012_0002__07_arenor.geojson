@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Service004012_0002__07_arenor",
+"xy_coordinate_resolution": 1e-08,
+"features": [
+{ "type": "Feature", "properties": { "FID": 6, "Gislink": 7, "Area": 25094025, "Perimeter": 47773, "Acad_Text": "AAM", "Sigla": "AAM", "Acad_angle": 0, "Foglio": 0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 7.27897321, 44.71756632 ], [ 7.27907457, 44.71414769 ], [ 7.28417908, 44.71422451 ], [ 7.28407803, 44.71764316 ], [ 7.27897321, 44.71756632 ] ] ] } }
+]
+}

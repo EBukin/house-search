@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Service004012_0001__05_riporti_particelle",
+"xy_coordinate_resolution": 1e-08,
+"features": [
+{ "type": "Feature", "properties": { "FID": 2472, "GisLink": 0, "Acad_Text": " ", "Perimeter": 9, "Foglio": 0 }, "geometry": { "type": "LineString", "coordinates": [ [ 7.28230555, 44.71506292 ], [ 7.28241111, 44.71509283 ] ] } },
+{ "type": "Feature", "properties": { "FID": 2474, "GisLink": 0, "Acad_Text": " ", "Perimeter": 11, "Foglio": 0 }, "geometry": { "type": "LineString", "coordinates": [ [ 7.28144166, 44.71610112 ], [ 7.28142144, 44.71599476 ] ] } },
+{ "type": "Feature", "properties": { "FID": 2486, "GisLink": 0, "Acad_Text": " ", "Perimeter": 8, "Foglio": 0 }, "geometry": { "type": "LineString", "coordinates": [ [ 7.28204759, 44.71509159 ], [ 7.28209613, 44.71516219 ] ] } },
+{ "type": "Feature", "properties": { "FID": 2487, "GisLink": 0, "Acad_Text": " ", "Perimeter": 13, "Foglio": 0 }, "geometry": { "type": "LineString", "coordinates": [ [ 7.2819567, 44.71503441 ], [ 7.28187098, 44.71513964 ] ] } }
+]
+}

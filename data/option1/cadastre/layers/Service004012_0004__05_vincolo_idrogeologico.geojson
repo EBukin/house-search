@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Service004012_0004__05_vincolo_idrogeologico",
+"xy_coordinate_resolution": 1e-08,
+"features": [
+{ "type": "Feature", "properties": { "FID": 0, "Id": 0, "Acad_text": "VIdr", "Acad_angle": 0, "Gislink": 1, "Area": 0, "Perimeter": 0, "Foglio": 0, "Siglia": "", "ENTITY": "" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 7.27897321, 44.71756632 ], [ 7.27907457, 44.71414769 ], [ 7.28417908, 44.71422451 ], [ 7.28407803, 44.71764316 ], [ 7.27897321, 44.71756632 ] ] ] } }
+]
+}

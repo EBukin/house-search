@@ -49,6 +49,21 @@ find_layer <- function(pattern) {
   hit <- grep(pattern, names(layers), value = TRUE)
   if (length(hit)) layers[[hit[1]]] else NULL
 }
+harvest <- jsonlite::read_json(file.path(src, "harvest.json"))
+
+# Italian -> English glossary for layer names, field names and class codes.
+glossary <- jsonlite::read_json("config/translations.json")
+tr_layer <- function(name) {
+  g <- glossary$layers[[name]]
+  list(en = g$en %||% name, theme = g$theme %||% "other", description = g$description %||% "")
+}
+tr_field <- function(f) glossary$fields[[f]] %||% f
+tr_value <- function(v) {
+  v <- trimws(as.character(v))
+  en <- vapply(v, \(x) if (is.na(x)) NA_character_ else glossary$values[[x]] %||% x, character(1))
+  unname(en)
+}
+tr_service <- function(title) glossary$services[[title]] %||% title
 
 point <- st_sfc(st_point(c(site$lon, site$lat)), crs = 4326) |> st_transform(crs_metric)
 buffer <- st_buffer(point, site$buffer_m)
@@ -120,14 +135,33 @@ parcels <- parcels |>
   left_join(terrain_stats, by = "ID") |>
   select(-ID)
 
-# Planning / landscape layers: dominant class ("Sigla") and its share of the parcel.
-overlay_class <- function(parcels, layer, field = "Sigla") {
-  if (is.null(layer) || !field %in% names(layer)) return(rep(NA_character_, nrow(parcels)))
-  inter <- suppressWarnings(st_intersection(
-    select(parcels, parcel_id), select(layer, class = all_of(field))
-  ))
+# Planning / landscape layers (everything not from a "Cartografia catastale"
+# service): dominant class of each layer and its share of the parcel. Field
+# names differ between comuni, so take the first non-blank class-like field.
+svc_title <- function(s) {
+  jsonlite::read_json(file.path(src, "metadata", "services", paste0(basename(s), ".json")))$service$mapName %||% ""
+}
+overlay_defs <- Filter(function(l) {
+  !is.na(l$file %||% NA) && l$geometry_type %in% "esriGeometryPolygon" &&
+    !grepl("catastal", svc_title(l$service), ignore.case = TRUE) && file.exists(l$file)
+}, harvest$layers)
+class_fields <- c("Sigla", "Siglia", "classe", "Classe", "Acad_Text", "Acad_text", "ACAD_TEXT")
+feature_class <- function(layer) {
+  cls <- rep(NA_character_, nrow(layer))
+  for (f in intersect(class_fields, names(layer))) {
+    v <- trimws(as.character(layer[[f]]))
+    fill <- is.na(cls) & !is.na(v) & !v %in% c("", "0")
+    cls[fill] <- v[fill]
+  }
+  ifelse(is.na(cls), "present", cls)
+}
+overlay_class <- function(parcels, layer) {
+  layer$class <- feature_class(layer)
+  inter <- suppressWarnings(st_intersection(select(parcels, parcel_id), select(layer, class)))
   if (nrow(inter) == 0) return(rep(NA_character_, nrow(parcels)))
   inter$a <- as.numeric(st_area(inter))
+  inter <- inter[inter$a >= 1, ]  # ignore contacts along shared boundaries
+  if (nrow(inter) == 0) return(rep(NA_character_, nrow(parcels)))
   best <- inter |>
     st_drop_geometry() |>
     group_by(parcel_id, class) |>
@@ -135,25 +169,22 @@ overlay_class <- function(parcels, layer, field = "Sigla") {
     slice_max(a, n = 1, with_ties = FALSE) |>
     ungroup()
   pa <- setNames(parcels$area_m2, parcels$parcel_id)
-  lbl <- sprintf("%s (%.0f%%)", trimws(best$class), pmin(100, 100 * best$a / pa[best$parcel_id]))
+  lbl <- sprintf("%s (%.0f%%)", tr_value(best$class), pmin(100, 100 * best$a / pa[best$parcel_id]))
   unname(setNames(lbl, best$parcel_id)[parcels$parcel_id])
 }
-overlays <- c(
-  prg_zoning = "destinazioni_urbanistiche",
-  vincolo_idrogeologico = "vincolo_idrogeologico",
-  bosco_vincolo_paesaggistico = "foreste_e_boschi",
-  copertura_boscata = "coperturaboscata",
-  ambito_paesaggio = "ambiti_di_paesaggio",
-  unita_paesaggio = "unita_di_paesaggio",
-  morfologia_insediativa = "morfologie_insediative"
-)
-for (nm in names(overlays)) parcels[[nm]] <- overlay_class(parcels, find_layer(overlays[[nm]]))
+overlay_cols <- character()  # column name -> layer title, used by the popup
+for (l in overlay_defs) {
+  col <- paste0("ov_", slugify(l$name))
+  parcels[[col]] <- overlay_class(parcels, layers[[sub("\\.geojson$", "", basename(l$file))]])
+  overlay_cols[col] <- tr_layer(l$name)$en
+}
 
 buildings <- find_layer("edifici_catastali")
 if (!is.null(buildings)) {
   b_int <- suppressWarnings(st_intersection(select(parcels, parcel_id), select(buildings, b_label = Acad_text)))
   b_sum <- b_int |>
     mutate(a = as.numeric(st_area(b_int))) |>
+    filter(a >= 1) |>
     st_drop_geometry() |>
     group_by(parcel_id) |>
     summarise(buildings_n = n(), buildings_m2 = round(sum(a), 1),
@@ -176,6 +207,26 @@ cli_alert_success("Statistics for {nrow(parcels)} parcels written to {.path {out
 # ---- 4. Map ------------------------------------------------------------------
 
 fmt <- function(x, d = 1) ifelse(is.na(x), "-", formatC(x, format = "f", digits = d, big.mark = " "))
+
+# HTML table of every attribute of one feature: English field name, translated
+# value, and the original Italian value when the translation differs.
+attr_table <- function(row) {
+  vals <- vapply(row, \(v) if (is.na(v)) "" else trimws(as.character(v)), character(1))
+  en <- tr_value(vals)
+  shown <- ifelse(en == vals | vals == "", htmlEscape(vals),
+                  sprintf("%s <span class='it'>(%s)</span>", htmlEscape(en), htmlEscape(vals)))
+  fields <- vapply(names(row), tr_field, character(1))
+  sprintf("<table>%s</table>", paste0(
+    "<tr><th>", htmlEscape(fields), " <span class='it'>", htmlEscape(names(row)), "</span></th><td>",
+    ifelse(shown == "", "<span class='it'>blank</span>", shown), "</td></tr>", collapse = ""
+  ))
+}
+# Original parcel field name -> column holding it after the rename above.
+parcel_raw_fields <- setdiff(names(st_read(file.path(src, "cadastre", "parcels.geojson"), quiet = TRUE)), "geometry")
+parcel_raw_fields <- setNames(
+  dplyr::recode(parcel_raw_fields, Acad_text = "particella", Area = "area_cadastral_m2"),
+  parcel_raw_fields
+)
 popup_html <- function(p) {
   rows <- c(
     "Foglio / particella" = sprintf("%s / %s", p$Foglio, p$particella),
@@ -190,19 +241,18 @@ popup_html <- function(p) {
     "South-facing (SE–SW)" = paste(fmt(p$south_facing_pct, 0), "%"),
     "Southness (-1 N … +1 S)" = fmt(p$southness, 2),
     "Noon sun, winter / equinox" = sprintf("%s / %s × flat", fmt(p$sun_winter_idx, 2), fmt(p$sun_equinox_idx, 2)),
-    "PRG zoning" = p$prg_zoning,
-    "Vincolo idrogeologico" = p$vincolo_idrogeologico,
-    "Bosco (vincolo paesaggistico)" = p$bosco_vincolo_paesaggistico,
-    "Copertura boscata" = p$copertura_boscata,
-    "Unità di paesaggio" = p$unita_paesaggio,
     "Buildings" = if (isTRUE(p$buildings_n > 0)) sprintf("%d (%s m²): %s", p$buildings_n, fmt(p$buildings_m2, 0), p$buildings) else "none",
-    "Cadastral dates (in / end)" = sprintf("%s / %s", p$DataIn, trimws(p$DataFi))
+    setNames(vapply(names(overlay_cols), \(col) p[[col]] %||% NA_character_, character(1)), overlay_cols)
   )
   rows[is.na(rows)] <- "-"
+  # All attributes as served by the cadastre (two columns were renamed above).
+  raw <- st_drop_geometry(p)[, parcel_raw_fields, drop = FALSE]
+  names(raw) <- names(parcel_raw_fields)
   sprintf(
-    "<div class='pp'><h4>%s%s</h4><table>%s</table></div>",
+    "<div class='pp'><h4>%s%s</h4><div class='it'>Cadastral parcel (Particelle catastali)</div><table>%s</table><h5>Cadastral attributes</h5>%s</div>",
     htmlEscape(p$parcel_id), if (isTRUE(p$is_target)) " ★ selected point" else "",
-    paste0("<tr><th>", names(rows), "</th><td>", htmlEscape(rows), "</td></tr>", collapse = "")
+    paste0("<tr><th>", names(rows), "</th><td>", htmlEscape(rows), "</td></tr>", collapse = ""),
+    attr_table(raw)
   )
 }
 parcels_ll$popup <- vapply(seq_len(nrow(parcels_ll)), \(i) popup_html(parcels_ll[i, ]), character(1))
@@ -283,17 +333,70 @@ m <- m |>
   addLabelOnlyMarkers(data = centroids, group = "Parcel labels", label = ~particella,
                       labelOptions = labelOptions(noHide = TRUE, direction = "center",
                                                   textOnly = TRUE, className = "plabel"))
-if (!is.null(buildings)) {
-  m <- addPolygons(m, data = st_transform(buildings, 4326), group = "Buildings",
-                   color = "#f472b6", weight = 2, fillOpacity = 0.3, label = ~Acad_text)
+# Every other harvested layer, coloured by theme, with a translated attribute popup.
+themes <- list(
+  buildings = list(label = "Buildings", color = "#f472b6", visible = TRUE),
+  cadastre  = list(label = "Cadastre", color = "#fde047", visible = FALSE),
+  planning  = list(label = "Planning", color = "#60a5fa", visible = FALSE),
+  hazard    = list(label = "Hazard", color = "#fb923c", visible = FALSE),
+  landscape = list(label = "Landscape", color = "#4ade80", visible = FALSE),
+  other     = list(label = "Other", color = "#e5e7eb", visible = FALSE)
+)
+layer_defs <- Filter(\(l) !is.na(l$file %||% NA) && file.exists(l$file) &&
+                       !identical(l$name, "Particelle catastali"), harvest$layers)
+layer_defs <- layer_defs[order(match(vapply(layer_defs, \(l) tr_layer(l$name)$theme, ""), names(themes)))]
+layer_groups <- character()
+for (l in layer_defs) {
+  tl <- tr_layer(l$name)
+  th <- themes[[tl$theme]] %||% themes$other
+  group <- sprintf("%s: %s", th$label, tl$en)
+  if (group %in% layer_groups) group <- sprintf("%s (%s)", group, l$name)
+  lyr <- st_read(l$file, quiet = TRUE)
+  service_en <- tr_service(svc_title(l$service))
+  header <- sprintf(
+    "<h4>%s</h4><div class='it'>%s &middot; %s</div><p>%s</p>",
+    htmlEscape(tl$en), htmlEscape(l$name), htmlEscape(service_en), htmlEscape(tl$description)
+  )
+  if (isTRUE(l$clipped)) {
+    header <- paste0(header, "<p class='note'>Geometry cropped to the study area; recorded area/perimeter refer to the whole feature.</p>")
+  }
+  lyr$popup <- vapply(seq_len(nrow(lyr)), \(i) {
+    sprintf("<div class='pp'>%s%s</div>", header, attr_table(st_drop_geometry(lyr)[i, , drop = FALSE]))
+  }, character(1))
+  label_field <- intersect(c("Sigla", "Acad_text", "Acad_Text", "ACAD_TEXT", "classe"), names(lyr))
+  lyr$hover <- if (length(label_field)) {
+    paste0(tl$en, ": ", tr_value(lyr[[label_field[1]]]))
+  } else {
+    tl$en
+  }
+  gtype <- as.character(st_geometry_type(lyr, by_geometry = FALSE))
+  if (grepl("POINT", gtype)) {
+    m <- addCircleMarkers(m, data = lyr, group = group, radius = 4, color = th$color, weight = 1.5,
+                          fillOpacity = 0.6, popup = ~popup, label = ~hover,
+                          popupOptions = popupOptions(maxWidth = 460))
+  } else if (grepl("LINE", gtype)) {
+    m <- addPolylines(m, data = lyr, group = group, color = th$color, weight = 2.5, opacity = 0.9,
+                      popup = ~popup, label = ~hover, popupOptions = popupOptions(maxWidth = 460))
+  } else {
+    m <- addPolygons(m, data = lyr, group = group, color = th$color, weight = 2, opacity = 0.9,
+                     fillColor = th$color, fillOpacity = if (tl$theme == "buildings") 0.35 else 0.15,
+                     dashArray = if (tl$theme %in% c("planning", "hazard", "landscape")) "6 4" else NULL,
+                     popup = ~popup, label = ~hover, popupOptions = popupOptions(maxWidth = 460),
+                     highlightOptions = highlightOptions(weight = 3.5, fillOpacity = 0.3))
+  }
+  layer_groups[group] <- tl$theme
 }
+groups_overlay <- c(groups_overlay[groups_overlay != "Buildings"], names(layer_groups))
+hidden_layers <- names(layer_groups)[!vapply(layer_groups, \(t) (themes[[t]] %||% themes$other)$visible, TRUE)]
+
 m <- m |>
   addCircleMarkers(data = point_ll, radius = 6, color = "#ffffff", weight = 2,
                    fillColor = "#ef4444", fillOpacity = 1,
                    label = sprintf("%s: %.6f, %.6f", site$label, site$lat, site$lon)) |>
   addLayersControl(baseGroups = names(imagery), overlayGroups = groups_overlay,
                    options = layersControlOptions(collapsed = FALSE)) |>
-  hideGroup(c("Slope raster", "Mean slope", "Mean elevation", "South exposure", "Contours 1 m")) |>
+  hideGroup(c("Slope raster", "Mean slope", "Mean elevation", "South exposure", "Contours 1 m",
+              hidden_layers)) |>
   addScaleBar("bottomleft", options = scaleBarOptions(imperial = FALSE)) |>
   addMeasure(position = "topleft", primaryLengthUnit = "meters", primaryAreaUnit = "sqmeters",
              activeColor = "#22d3ee", completedColor = "#22d3ee") |>
@@ -332,6 +435,11 @@ css <- tags$style(HTML("
   .pp table { border-collapse: collapse; font: 12px system-ui, sans-serif; }
   .pp th { text-align: left; font-weight: 500; color: #555; padding: 2px 10px 2px 0; vertical-align: top; white-space: nowrap; }
   .pp td { padding: 2px 0; }
+  .pp h5 { margin: 8px 0 4px; font: 600 12px system-ui, sans-serif; }
+  .pp p { margin: 4px 0 6px; font: 12px system-ui, sans-serif; max-width: 420px; }
+  .pp .it { color: #888; font-size: 11px; font-weight: 400; }
+  .pp .note { color: #92400e; font-size: 11px; }
+  .leaflet-control-layers-expanded { max-height: 75vh; overflow-y: auto; }
   .plabel { color: #fff; font: 600 12px system-ui, sans-serif; text-shadow: 0 0 3px #000, 0 0 3px #000; }
   .coords { background: rgba(255,255,255,.85); padding: 2px 6px; font: 12px ui-monospace, monospace; border-radius: 3px; }
 "))

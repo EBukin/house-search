@@ -1,0 +1,276 @@
+{
+  "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004012/Service004012_0006/MapServer",
+  "service": {
+    "currentVersion": 10.81,
+    "serviceDescription": "",
+    "mapName": "Cartografia catastale",
+    "description": "",
+    "copyrightText": "",
+    "supportsDynamicLayers": true,
+    "layers": [
+      {
+        "id": 0,
+        "name": "Punti di videosorveglianza",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      }
+    ],
+    "tables": [],
+    "spatialReference": {
+      "wkid": 32632,
+      "latestWkid": 32632
+    },
+    "singleFusedMapCache": false,
+    "initialExtent": {
+      "xmin": 354595.570361434,
+      "ymin": 4943994.39812383,
+      "xmax": 389227.974905705,
+      "ymax": 4963846.06533798,
+      "spatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      }
+    },
+    "fullExtent": {
+      "xmin": 356480.380582306,
+      "ymin": 4943994.39812383,
+      "xmax": 380430.327533515,
+      "ymax": 4963846.06533798,
+      "spatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      }
+    },
+    "minScale": 0,
+    "maxScale": 0,
+    "units": "esriMeters",
+    "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+    "documentInfo": {
+      "Title": "GisMaster.mxd",
+      "Author": "GiorgioMusso",
+      "Comments": "",
+      "Subject": "",
+      "Category": "",
+      "AntialiasingMode": "None",
+      "TextAntialiasingMode": "Force",
+      "Keywords": ""
+    },
+    "capabilities": "Map,Query,Data",
+    "supportedQueryFormats": "JSON, geoJSON",
+    "exportTilesAllowed": false,
+    "referenceScale": 2000,
+    "datumTransformations": [
+      {
+        "geoTransforms": [
+          {
+            "wkid": 108001,
+            "latestWkid": 1241,
+            "transformForward": true,
+            "name": "NAD_1927_To_NAD_1983_NADCON"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 108001,
+            "latestWkid": 1241,
+            "transformForward": false,
+            "name": "NAD_1927_To_NAD_1983_NADCON"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 8175,
+            "latestWkid": 8175,
+            "transformForward": true,
+            "name": "Monte_Mario_Rome_To_WGS_1984"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 8175,
+            "latestWkid": 8175,
+            "transformForward": false,
+            "name": "Monte_Mario_Rome_To_WGS_1984"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 1660,
+            "latestWkid": 1660,
+            "transformForward": true,
+            "name": "Monte_Mario_To_WGS_1984_4"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 1660,
+            "latestWkid": 1660,
+            "transformForward": false,
+            "name": "Monte_Mario_To_WGS_1984_4"
+          }
+        ]
+      }
+    ],
+    "supportsDatumTransformation": true,
+    "maxRecordCount": 1000,
+    "maxImageHeight": 4096,
+    "maxImageWidth": 4096,
+    "supportedExtensions": "KmlServer"
+  },
+  "layers": [
+    {
+      "currentVersion": 10.81,
+      "id": 0,
+      "name": "Punti di videosorveglianza",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriPMS",
+            "url": "065b0638856ae5d508f96afb928df84a",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAJVJREFUGJV1yqFOglEYgOHnuLOdohv7TUg0UiHqBXgNbBZG4gIM3oBVLgEaSa+AzOY1mPwZ5U+UU/gsFBk+9X2zk5+mGV113WNwCD4G7CFDy0LXzeM0J95anu/4zDumwdxfPaxahjmYuewGk4zmn4FSbnPiK7i/ONS6zUdeEk+4PsubPus84HvHOHjHAw5KWaZaXxPxC/nRJu3WBI/eAAAAAElFTkSuQmCC",
+            "contentType": "image/png",
+            "width": 6,
+            "height": 6,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 363854.24413317,
+        "ymin": 4950593.87430083,
+        "xmax": 379220.271249848,
+        "ymax": 4958045.69371891,
+        "spatialReference": {
+          "wkid": 32632,
+          "latestWkid": 32632
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Testo",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id",
+          "domain": null
+        },
+        {
+          "name": "codice",
+          "type": "esriFieldTypeInteger",
+          "alias": "codice",
+          "domain": null
+        },
+        {
+          "name": "Testo",
+          "type": "esriFieldTypeString",
+          "alias": "Testo",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "angolo",
+          "type": "esriFieldTypeInteger",
+          "alias": "angolo",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    }
+  ],
+  "tables": []
+}

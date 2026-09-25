@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Service004012_0001__06_frazionamenti_non_catastali",
+"xy_coordinate_resolution": 1e-08,
+"features": [
+{ "type": "Feature", "properties": { "FID": 36, "GisLink": 0, "Acad_Text": " ", "Perimeter": 19, "Foglio": 0 }, "geometry": { "type": "LineString", "coordinates": [ [ 7.28171666, 44.71528735 ], [ 7.28195803, 44.71532533 ] ] } },
+{ "type": "Feature", "properties": { "FID": 37, "GisLink": 0, "Acad_Text": " ", "Perimeter": 25, "Foglio": 0 }, "geometry": { "type": "LineString", "coordinates": [ [ 7.28195803, 44.71532533 ], [ 7.28205827, 44.71510387 ] ] } }
+]
+}

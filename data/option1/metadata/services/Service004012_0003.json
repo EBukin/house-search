@@ -1,0 +1,577 @@
+{
+  "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004012/Service004012_0003/MapServer",
+  "service": {
+    "currentVersion": 10.81,
+    "serviceDescription": "",
+    "mapName": "Layer",
+    "description": "",
+    "copyrightText": "",
+    "supportsDynamicLayers": true,
+    "layers": [
+      {
+        "id": 0,
+        "name": "PAI2008",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      }
+    ],
+    "tables": [],
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    },
+    "singleFusedMapCache": true,
+    "tileInfo": {
+      "rows": 256,
+      "cols": 256,
+      "dpi": 96,
+      "format": "PNG",
+      "compressionQuality": 0,
+      "origin": {
+        "x": -20037508.342787,
+        "y": 20037508.342787
+      },
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+      },
+      "lods": [
+        {
+          "level": 0,
+          "resolution": 156543.033928,
+          "scale": 591657527.591555
+        },
+        {
+          "level": 1,
+          "resolution": 78271.5169639999,
+          "scale": 295828763.795777
+        },
+        {
+          "level": 2,
+          "resolution": 39135.7584820001,
+          "scale": 147914381.897889
+        },
+        {
+          "level": 3,
+          "resolution": 19567.8792409999,
+          "scale": 73957190.948944
+        },
+        {
+          "level": 4,
+          "resolution": 9783.93962049996,
+          "scale": 36978595.474472
+        },
+        {
+          "level": 5,
+          "resolution": 4891.96981024998,
+          "scale": 18489297.737236
+        },
+        {
+          "level": 6,
+          "resolution": 2445.98490512499,
+          "scale": 9244648.868618
+        },
+        {
+          "level": 7,
+          "resolution": 1222.99245256249,
+          "scale": 4622324.434309
+        },
+        {
+          "level": 8,
+          "resolution": 611.49622628138,
+          "scale": 2311162.217155
+        },
+        {
+          "level": 9,
+          "resolution": 305.748113140558,
+          "scale": 1155581.108577
+        },
+        {
+          "level": 10,
+          "resolution": 152.874056570411,
+          "scale": 577790.554289
+        },
+        {
+          "level": 11,
+          "resolution": 76.4370282850732,
+          "scale": 288895.277144
+        },
+        {
+          "level": 12,
+          "resolution": 38.2185141425366,
+          "scale": 144447.638572
+        },
+        {
+          "level": 13,
+          "resolution": 19.1092570712683,
+          "scale": 72223.819286
+        },
+        {
+          "level": 14,
+          "resolution": 9.55462853563415,
+          "scale": 36111.909643
+        },
+        {
+          "level": 15,
+          "resolution": 4.77731426794937,
+          "scale": 18055.954822
+        },
+        {
+          "level": 16,
+          "resolution": 2.38865713397468,
+          "scale": 9027.977411
+        },
+        {
+          "level": 17,
+          "resolution": 1.19432856685505,
+          "scale": 4513.988705
+        },
+        {
+          "level": 18,
+          "resolution": 0.597164283559817,
+          "scale": 2256.994353
+        },
+        {
+          "level": 19,
+          "resolution": 0.298582141647617,
+          "scale": 1128.497176
+        }
+      ]
+    },
+    "initialExtent": {
+      "xmin": 799828.714307375,
+      "ymin": 5564545.40652143,
+      "xmax": 834038.116042027,
+      "ymax": 5592607.54772207,
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+      }
+    },
+    "fullExtent": {
+      "xmin": 801490.276564708,
+      "ymin": 5570444.11125854,
+      "xmax": 832401.411293729,
+      "ymax": 5586698.99683798,
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+      }
+    },
+    "minScale": 72223.819286,
+    "maxScale": 1128.497176,
+    "units": "esriMeters",
+    "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+    "documentInfo": {
+      "Title": "",
+      "Author": "",
+      "Comments": "",
+      "Subject": "",
+      "Category": "",
+      "AntialiasingMode": "None",
+      "TextAntialiasingMode": "Force",
+      "Keywords": ""
+    },
+    "capabilities": "Map,Query,Data",
+    "supportedQueryFormats": "JSON, geoJSON",
+    "exportTilesAllowed": false,
+    "referenceScale": 2000,
+    "datumTransformations": [
+      {
+        "geoTransforms": [
+          {
+            "wkid": 108001,
+            "latestWkid": 1241,
+            "transformForward": true,
+            "name": "NAD_1927_To_NAD_1983_NADCON"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 108001,
+            "latestWkid": 1241,
+            "transformForward": false,
+            "name": "NAD_1927_To_NAD_1983_NADCON"
+          }
+        ]
+      }
+    ],
+    "supportsDatumTransformation": true,
+    "maxRecordCount": 1000,
+    "maxImageHeight": 4096,
+    "maxImageWidth": 4096,
+    "supportedExtensions": "KmlServer"
+  },
+  "layers": [
+    {
+      "currentVersion": 10.81,
+      "id": 0,
+      "name": "PAI2008",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "uniqueValue",
+          "field1": "classe",
+          "field2": null,
+          "field3": null,
+          "defaultSymbol": null,
+          "defaultLabel": null,
+          "uniqueValueInfos": [
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSHorizontal",
+                "color": [
+                  0,
+                  200,
+                  255,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    200,
+                    255,
+                    255
+                  ],
+                  "width": 1
+                }
+              },
+              "value": "",
+              "label": "Classe III ind",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSHorizontal",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    255
+                  ],
+                  "width": 1
+                }
+              },
+              "value": "I",
+              "label": "Classe I",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  112,
+                  255,
+                  0,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 0.39968424
+                }
+              },
+              "value": "II1",
+              "label": "Classe II 1",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSHorizontal",
+                "color": [
+                  0,
+                  194,
+                  0,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    194,
+                    0,
+                    255
+                  ],
+                  "width": 1
+                }
+              },
+              "value": "II2",
+              "label": "Classe II 2",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSHorizontal",
+                "color": [
+                  0,
+                  100,
+                  255,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    100,
+                    255,
+                    255
+                  ],
+                  "width": 1
+                }
+              },
+              "value": "II3",
+              "label": "Classe II 3",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  200,
+                  0,
+                  0,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 0.39968424
+                }
+              },
+              "value": "IIIA1",
+              "label": "Classe III A1",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  244,
+                  173,
+                  73,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 0.39968424
+                }
+              },
+              "value": "IIIA2",
+              "label": "Classe III A2",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  100,
+                  0,
+                  0,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 0.39968424
+                }
+              },
+              "value": "IIIB3",
+              "label": "Classe III B3",
+              "description": ""
+            }
+          ],
+          "fieldDelimiter": ","
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 801490.276564708,
+        "ymin": 5570444.11125854,
+        "xmax": 832401.411293729,
+        "ymax": 5586698.99683798,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "layer",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "id",
+          "domain": null
+        },
+        {
+          "name": "layer",
+          "type": "esriFieldTypeString",
+          "alias": "layer",
+          "length": 1,
+          "domain": null
+        },
+        {
+          "name": "color",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "color",
+          "domain": null
+        },
+        {
+          "name": "area",
+          "type": "esriFieldTypeInteger",
+          "alias": "area",
+          "domain": null
+        },
+        {
+          "name": "Acad_text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_text",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "classe",
+          "type": "esriFieldTypeString",
+          "alias": "classe",
+          "length": 50,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    }
+  ],
+  "tables": []
+}

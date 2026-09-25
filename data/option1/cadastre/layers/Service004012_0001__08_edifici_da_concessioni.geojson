@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Service004012_0001__08_edifici_da_concessioni",
+"xy_coordinate_resolution": 1e-08,
+"features": [
+{ "type": "Feature", "properties": { "FID": 442, "Id": 0, "Acad_text": "01208600", "Acad_angle": 0, "Gislink": 0, "Area": 23, "Perimeter": 20, "Foglio": 0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 7.28176281, 44.71529467 ], [ 7.28171666, 44.71528735 ], [ 7.28173587, 44.7152322 ], [ 7.28177816, 44.71523889 ], [ 7.28176281, 44.71529467 ] ] ] } }
+]
+}

@@ -1,0 +1,1252 @@
+{
+  "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004012/Service004012_0012/MapServer",
+  "service": {
+    "currentVersion": 10.81,
+    "serviceDescription": "",
+    "mapName": "Layers",
+    "description": "",
+    "copyrightText": "",
+    "supportsDynamicLayers": true,
+    "layers": [
+      {
+        "id": 0,
+        "name": "Processi franosi puntuali",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 1,
+        "name": "Frane",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      },
+      {
+        "id": 2,
+        "name": "Esondazioni e dissesti morfologici",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      },
+      {
+        "id": 3,
+        "name": "Trasporto di massa su conoidi",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      }
+    ],
+    "tables": [],
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    },
+    "singleFusedMapCache": true,
+    "tileInfo": {
+      "rows": 256,
+      "cols": 256,
+      "dpi": 96,
+      "format": "PNG",
+      "compressionQuality": 0,
+      "origin": {
+        "x": -20037508.342787,
+        "y": 20037508.342787
+      },
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+      },
+      "lods": [
+        {
+          "level": 0,
+          "resolution": 156543.033928,
+          "scale": 591657527.591555
+        },
+        {
+          "level": 1,
+          "resolution": 78271.5169639999,
+          "scale": 295828763.795777
+        },
+        {
+          "level": 2,
+          "resolution": 39135.7584820001,
+          "scale": 147914381.897889
+        },
+        {
+          "level": 3,
+          "resolution": 19567.8792409999,
+          "scale": 73957190.948944
+        },
+        {
+          "level": 4,
+          "resolution": 9783.93962049996,
+          "scale": 36978595.474472
+        },
+        {
+          "level": 5,
+          "resolution": 4891.96981024998,
+          "scale": 18489297.737236
+        },
+        {
+          "level": 6,
+          "resolution": 2445.98490512499,
+          "scale": 9244648.868618
+        },
+        {
+          "level": 7,
+          "resolution": 1222.99245256249,
+          "scale": 4622324.434309
+        },
+        {
+          "level": 8,
+          "resolution": 611.49622628138,
+          "scale": 2311162.217155
+        },
+        {
+          "level": 9,
+          "resolution": 305.748113140558,
+          "scale": 1155581.108577
+        },
+        {
+          "level": 10,
+          "resolution": 152.874056570411,
+          "scale": 577790.554289
+        },
+        {
+          "level": 11,
+          "resolution": 76.4370282850732,
+          "scale": 288895.277144
+        },
+        {
+          "level": 12,
+          "resolution": 38.2185141425366,
+          "scale": 144447.638572
+        },
+        {
+          "level": 13,
+          "resolution": 19.1092570712683,
+          "scale": 72223.819286
+        },
+        {
+          "level": 14,
+          "resolution": 9.55462853563415,
+          "scale": 36111.909643
+        },
+        {
+          "level": 15,
+          "resolution": 4.77731426794937,
+          "scale": 18055.954822
+        },
+        {
+          "level": 16,
+          "resolution": 2.38865713397468,
+          "scale": 9027.977411
+        },
+        {
+          "level": 17,
+          "resolution": 1.19432856685505,
+          "scale": 4513.988705
+        },
+        {
+          "level": 18,
+          "resolution": 0.597164283559817,
+          "scale": 2256.994353
+        },
+        {
+          "level": 19,
+          "resolution": 0.298582141647617,
+          "scale": 1128.497176
+        },
+        {
+          "level": 20,
+          "resolution": 0.149291070823808,
+          "scale": 564.248588
+        },
+        {
+          "level": 21,
+          "resolution": 0.0746455354119042,
+          "scale": 282.124294
+        },
+        {
+          "level": 22,
+          "resolution": 0.0373227677059521,
+          "scale": 141.062147
+        },
+        {
+          "level": 23,
+          "resolution": 0.018661383852976,
+          "scale": 70.5310735
+        }
+      ]
+    },
+    "initialExtent": {
+      "xmin": 820561.107201522,
+      "ymin": 5519524.27964612,
+      "xmax": 837854.778606087,
+      "ymax": 5532801.59886095,
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+      }
+    },
+    "fullExtent": {
+      "xmin": 819732.509864404,
+      "ymin": 5519507.7621221,
+      "xmax": 838682.298119499,
+      "ymax": 5532816.55609994,
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+      }
+    },
+    "minScale": 36111.909643,
+    "maxScale": 1128.497176,
+    "minLOD": 14,
+    "maxLOD": 19,
+    "units": "esriMeters",
+    "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+    "documentInfo": {
+      "Title": "GisMaster004022.mxd",
+      "Author": "NadiaDao",
+      "Comments": "",
+      "Subject": "",
+      "Category": "",
+      "AntialiasingMode": "None",
+      "TextAntialiasingMode": "Force",
+      "Keywords": ""
+    },
+    "capabilities": "Map,Query,Data",
+    "supportedQueryFormats": "JSON, geoJSON",
+    "exportTilesAllowed": false,
+    "referenceScale": 2000,
+    "datumTransformations": [
+      {
+        "geoTransforms": [
+          {
+            "wkid": 108001,
+            "latestWkid": 1241,
+            "transformForward": true,
+            "name": "NAD_1927_To_NAD_1983_NADCON"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 108001,
+            "latestWkid": 1241,
+            "transformForward": false,
+            "name": "NAD_1927_To_NAD_1983_NADCON"
+          }
+        ]
+      }
+    ],
+    "supportsDatumTransformation": true,
+    "maxRecordCount": 1000,
+    "maxImageHeight": 4096,
+    "maxImageWidth": 4096,
+    "supportedExtensions": "KmlServer"
+  },
+  "layers": [
+    {
+      "currentVersion": 10.81,
+      "id": 0,
+      "name": "Processi franosi puntuali",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "uniqueValue",
+          "field1": "Color",
+          "field2": null,
+          "field3": null,
+          "defaultSymbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [
+              0,
+              82,
+              163,
+              255
+            ],
+            "size": 4,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 1
+            }
+          },
+          "defaultLabel": "<tutti i valori rimanenti>",
+          "uniqueValueInfos": [
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "104e2d555af8d57881c2c1bdce8f6f2a",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAABExJREFUaIHtmk1MXFUYhp8zF+ZOUKJMLc2FDRuMJqKw0ZBuWm1MpK3dCJkMIWzwB01JazRpsMaFhnTZ1IU2YVFCSibgrlo32tZFQ2KMxaobqAmbmRMJXDStzpyBuccFo8jMnZ87PxckPgmb8zPzvvnOvef7vqGBfULDbguoFf8b2WvUzsjYatBcSfdicFRBtwmPK2gFmrMr7puwomDRhAUy3FStwXkuPZauxddXbcSKyKdlI6+zlo4og/Df4yp/6QEFB4AnFZzC4APW0jZDMmZtcFnGrLvV6KjYiBVNPCUFExJ9AgdR4ceEcfSb0mCUwcQ1C8bl1bafK/kg70aGl0PmhvmhFPpMRfvdEcDLEvrMqLyomkLnmWxxCWphvAmJxDvZFLNK6G5P+zzoUUK/QzL5AlHZz4z1S9kby10YjsjnbEN/wdY5rzc9GHo+HI332TPt35WzoSwjWRNfAw9VJc8LDgdtIW6Eo/HnyzFT2kgk3pmNhH8mtmm2DXGdqOwtdcyKGxleDrERmAPtx3Fyx+EgQs8xst5b7AVQ1IjpBCeU0M/UXp1nesw/Ux8peLfQgoJGrIjsko4+XR9d3lFCn7EGE1cK3TMFjUhDXyg2vws0SJgATrlOug2GhxI9tkNfXWVVxkkrIrtkzPoxd8LViO2IUdD1l+UdIRt5A3grdyLfyMi6STLZ74eqinB0hLHVs7lZc54RU6UOK3jUP2WeCZsr6V4F3/x7MD8iGX2k4lzWLwyOUsqIEtQrIawZinyN+UcLOj3lz7tAtvrcQX5E4JBPeiomW0LvwO31+7APWqqlOXdgL93cVeFm5AHQ4rcQj9zPHXB72H9Ve9xItq20A7eHfQl4wh9JlaFgMXcsPyKaBSU46Y+kyjBhoWREMMQtHP2+P5IqJMPN3KH8o2WGbpNM/g484oso79iqNTifO5gfkckWxaCcBf2qL7K8EhAxt36xe2EV4FPbYS8a0dYGl6XLhHthNW19TzTxJYKX6izMK9cKNbsLNx8ccU4a+kXAqJssb2xamvfcogHFmg8x6645lLikHM7WSZgnTC0uyhnrp0LzRXMtFUiP4wSPAV01V+aNBdUUOl9sQfGkcaojxUD8FRrFPGz/iOMzq2REf6mfGUpnv7Pti+ZQ/IRyxFdAU63Ulckf4QzH7Zh1r9TCstJ4Nd0+bw7FjylHfI5/kVkLZ8RxO2Z9W87isusRNd0+z0C8l0bxGfV+ZrT4Acfpt2NtS+Vu8VZYzbYvMrz8rOkEJ5TDGLV/NW+aAT5WATXOVEfKy0bvFeJUR0rB21ZEXpEBfaGGl+Z1KyPOyav57dByqLjUzd6wfVt9YjEKegDvieZvIObCAf2JPd12p9BlVw5V1+z2dNsd4DVG1k+bKnWYjD6iBN3ZttIhtpsZD7LV55KpWcAQt5QZus1ki7KrFUEtmw+TLUrBDbb+3P5h4J+xevTN9nUX5T/JvjHyF2/na3YL5WyCAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 37,
+                "height": 37,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "1",
+              "label": "Fa - Processi franosi puntuali attivi (pericolosità molto elevata)",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "83e16a5217b69bedae2faae265045c2d",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAADgAAAA3CAYAAABZ0InLAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAA9FJREFUaIHt2s1vG0UcxvHvOGmnvByqXNJdI8gdJMSV19ppCbQFcQApeGUiBAe48Adw4lCpR0QlrqiR68jKhbSUUgnJae9cKC/lVQik7KS0cZGQiEbJ7nDwbuJsHeFdzy5y5UeyLO14duYjr3ZnfvYk93gm/+8J5J0xcNRTLNDzl4GXgWWa7htFDFn0N3gQkNF7IRlfoqOeMXDUkw749h3JP5ufTGE+7CyVv8ppTvtG1tScxpxiyXkPhBmkTzrg5mYDwWsdxImp2trxIpGypp7XwqwAh6SnNnSTDwbplwooAz7WE5wEDneE+LIopPT84xpzATgEYk0HnB+0byqgbrnX5Lx/Qk9wmYKQ0vOPaYhw+ARhhVb5l0H7p77JFImUnj+r4SJwH+CzZSosl39Oc45Md1Hdcq/JBf+k3uZzckLKuqrq0HxGF6ci3E9pz5P5MaEX3at5IWVdVXpw6xygQjM9DoZ8DuaBlAv+Ub1tLgH3A+tMigrnnB+znm/oB71NpJz3n4vOs4tbdH4YZn5WVjJ60b0q6+qUDs0lMiJlzX9Wix3cTUqiOiwOLC7VdMNZzYqUNfWMFuYy8ADwJ5gqDfeGjXlZXYtmQUpPPa2JcCVuOSFV1Sx/b2tO1hfbaZDS85/SmC+ABylxywmoqiX3O5vzyWU3ESFfim71u8iez8i6/6QOucJe3Le255Lbdkk3nHYSKUHpbvNjOzi47WyJWdVyrOMg5/1gEqnhcNT0aPS+4QRiVrWcb/KaQ3+g51+xNYAODRhuI3i4T/MfasK8j+fbGu4vmu47vQf2+wbnbI0IgNi35YnoZSs3gYGAFywOCojHwczcdbjEdUJ+szjOneSR/sCm+4qtIeW8/4KeMCt9G0OmwbyOxedeMrneZLo4VugWezdA/A1mRsINDY8A0yDaeGvVvJC5AZO4qQNmthPwESEzGq7LgHejTXOuyFyAsqbmtDCf0os7V/6a+u7dMlEZ6CLrqkLDsbIGjWMdGOFW6NZQdnF9kqgMTBOaVdtIq8A0uDiJ/aR1pDVgb92SAXFx8kRaAUa4uLSXChenD7JNXVWHRQ4NtIGLk6gMHLGBHApoExcnsZ8cGpkZuLecbgcXpy9yQWUqQGUCdnFcJAdcnLuQ22Y1CzI1sAhcHBvIdL8uFYiLkyh/pEam+3WpxJuExeF2xt1bGThCyKvA6UH6prtEHxIL/G42pw6as0Xh4sRIAl7UDWcgHKQFnnG2gLc6//nBfKIbThtop+kz/hPCqGcMHPUUCwxYQ/CrRKzrgoYsFrjkegBF4WB8iY5+7nngv6Vzkml05HQLAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 42,
+                "height": 41,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "5",
+              "label": "Fs - Processi franosi puntuali stabilizzati (pericolosità media o moderata)",
+              "description": ""
+            }
+          ],
+          "fieldDelimiter": ","
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 822473.365518506,
+        "ymin": 5522414.13592015,
+        "xmax": 823785.122962804,
+        "ymax": 5523270.3898504,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Entity",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "FID_",
+          "type": "esriFieldTypeInteger",
+          "alias": "FID_",
+          "domain": null
+        },
+        {
+          "name": "Entity",
+          "type": "esriFieldTypeString",
+          "alias": "Entity",
+          "length": 16,
+          "domain": null
+        },
+        {
+          "name": "Layer",
+          "type": "esriFieldTypeString",
+          "alias": "Layer",
+          "length": 254,
+          "domain": null
+        },
+        {
+          "name": "Color",
+          "type": "esriFieldTypeInteger",
+          "alias": "Color",
+          "domain": null
+        },
+        {
+          "name": "Linetype",
+          "type": "esriFieldTypeString",
+          "alias": "Linetype",
+          "length": 254,
+          "domain": null
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation",
+          "domain": null
+        },
+        {
+          "name": "LineWt",
+          "type": "esriFieldTypeInteger",
+          "alias": "LineWt",
+          "domain": null
+        },
+        {
+          "name": "RefName",
+          "type": "esriFieldTypeString",
+          "alias": "RefName",
+          "length": 254,
+          "domain": null
+        },
+        {
+          "name": "Angle",
+          "type": "esriFieldTypeDouble",
+          "alias": "Angle",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "hasZ": true,
+      "hasM": true,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 1,
+      "name": "Frane",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "uniqueValue",
+          "field1": "Sigla",
+          "field2": null,
+          "field3": null,
+          "defaultSymbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              212,
+              204,
+              252,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "defaultLabel": "<tutti i valori rimanenti>",
+          "uniqueValueInfos": [
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSBackwardDiagonal",
+                "color": [
+                  0,
+                  92,
+                  230,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    92,
+                    230,
+                    255
+                  ],
+                  "width": 2
+                }
+              },
+              "value": "Fa",
+              "label": "Fa - Aree interessate da frane attive (pericolosità molto elevata)",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  0,
+                  92,
+                  230,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    92,
+                    230,
+                    255
+                  ],
+                  "width": 2
+                }
+              },
+              "value": "Fq",
+              "label": "Fq - Aree interessate da frane quiescenti (pericolosità elevata)",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSVertical",
+                "color": [
+                  0,
+                  92,
+                  230,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    92,
+                    230,
+                    255
+                  ],
+                  "width": 2
+                }
+              },
+              "value": "Fs",
+              "label": "Fs - Aree interessate da frane stabilizzate (pericolosità molto elevata)",
+              "description": ""
+            }
+          ],
+          "fieldDelimiter": ","
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 825777.262233082,
+        "ymin": 5521426.19327153,
+        "xmax": 827010.33317577,
+        "ymax": 5524318.57025997,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Sigla",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "Sigla",
+          "type": "esriFieldTypeString",
+          "alias": "Sigla",
+          "length": 20,
+          "domain": null
+        },
+        {
+          "name": "Acad_Text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_Text",
+          "length": 30,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "hasZ": true,
+      "hasM": true,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 2,
+      "name": "Esondazioni e dissesti morfologici",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "uniqueValue",
+          "field1": "Sigla",
+          "field2": null,
+          "field3": null,
+          "defaultSymbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              212,
+              250,
+              229,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "defaultLabel": "<tutti i valori rimanenti>",
+          "uniqueValueInfos": [
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSHorizontal",
+                "color": [
+                  0,
+                  92,
+                  230,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    92,
+                    230,
+                    255
+                  ],
+                  "width": 6
+                }
+              },
+              "value": "Ee",
+              "label": "Ee- Aree coinvolgibili da processi torrentizi a pericolosità molto elevata",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSHorizontal",
+                "color": [
+                  0,
+                  92,
+                  230,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    92,
+                    230,
+                    255
+                  ],
+                  "width": 5
+                }
+              },
+              "value": "Eb",
+              "label": "Eb -  Aree coinvolgibili da processi torrentizzi a pericolosità elevata",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  0,
+                  92,
+                  230,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    92,
+                    230,
+                    255
+                  ],
+                  "width": 2
+                }
+              },
+              "value": "Em",
+              "label": "Em - Aree coinvolgibili da processi torrentizi a pericolosità media o moderata",
+              "description": ""
+            }
+          ],
+          "fieldDelimiter": ","
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 824036.272506463,
+        "ymin": 5522642.11232527,
+        "xmax": 833256.75613016,
+        "ymax": 5529931.28589523,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Sigla",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "Sigla",
+          "type": "esriFieldTypeString",
+          "alias": "Sigla",
+          "length": 20,
+          "domain": null
+        },
+        {
+          "name": "Acad_Text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_Text",
+          "length": 30,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "hasZ": true,
+      "hasM": true,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 3,
+      "name": "Trasporto di massa su conoidi",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "symbolLayerDrawing": {
+          "type": "CIMSymbolLayerDrawing",
+          "symbolLayers": [
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_128",
+              "symbolLayerName": "Level_2"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_129",
+              "symbolLayerName": "Level_1"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_129",
+              "symbolLayerName": "Level_0"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_130",
+              "symbolLayerName": "Level_0"
+            }
+          ],
+          "useSymbolLayerDrawing": true
+        },
+        "renderer": {
+          "type": "uniqueValue",
+          "field1": "Sigla",
+          "field2": null,
+          "field3": null,
+          "defaultSymbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              203,
+              219,
+              247,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "defaultLabel": "<tutti i valori rimanenti>",
+          "uniqueValueInfos": [
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSBackwardDiagonal",
+                "color": [
+                  0,
+                  92,
+                  230,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "Ca",
+              "label": "Ca - Aree di conoidi attivi o potenzialmente attivi",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSVertical",
+                "color": [
+                  0,
+                  92,
+                  230,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    92,
+                    230,
+                    255
+                  ],
+                  "width": 3
+                }
+              },
+              "value": "Cn",
+              "label": "Cn - Aree di conoidi non recentemente riattivatisi ",
+              "description": ""
+            }
+          ],
+          "fieldDelimiter": ","
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 825092.186024115,
+        "ymin": 5522955.0603989,
+        "xmax": 830141.767007531,
+        "ymax": 5527445.73060756,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Sigla",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "Sigla",
+          "type": "esriFieldTypeString",
+          "alias": "Sigla",
+          "length": 20,
+          "domain": null
+        },
+        {
+          "name": "Acad_Text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_Text",
+          "length": 30,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "hasZ": true,
+      "hasM": true,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    }
+  ],
+  "tables": []
+}

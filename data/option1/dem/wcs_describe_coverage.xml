@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="UTF-8" ?>
+<CoverageDescription
+   version="1.0.0" 
+   updateSequence="0" 
+   xmlns="http://www.opengis.net/wcs" 
+   xmlns:xlink="http://www.w3.org/1999/xlink" 
+   xmlns:gml="http://www.opengis.net/gml" 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.opengis.net/wcs http://schemas.opengis.net/wcs/1.0.0/describeCoverage.xsd">
+  <CoverageOffering>
+  <name>DTM</name>
+  <label>RIPRESA AEREA ICE 2009-2011 - DTM 5</label>
+    <lonLatEnvelope srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+      <gml:pos>6.26750121106209 43.8757918023655</gml:pos>
+      <gml:pos>9.47884696888345 46.6401000345157</gml:pos>
+    </lonLatEnvelope>
+    <domainSet>
+      <spatialDomain>
+        <gml:Envelope srsName="EPSG:4326">
+          <gml:pos>6.26750121106209 43.8757918023655</gml:pos>
+          <gml:pos>9.47884696888345 46.6401000345157</gml:pos>
+        </gml:Envelope>
+        <gml:Envelope srsName="EPSG:32632">
+          <gml:pos>290748 4861375</gml:pos>
+          <gml:pos>536649 5165171</gml:pos>
+        </gml:Envelope>
+        <gml:RectifiedGrid dimension="2">
+          <gml:limits>
+            <gml:GridEnvelope>
+              <gml:low>0 0</gml:low>
+              <gml:high>49179 60757</gml:high>
+            </gml:GridEnvelope>
+          </gml:limits>
+          <gml:axisName>x</gml:axisName>
+          <gml:axisName>y</gml:axisName>
+          <gml:origin>
+            <gml:pos>290748 5165171</gml:pos>
+          </gml:origin>
+          <gml:offsetVector>5 0</gml:offsetVector>
+          <gml:offsetVector>0 -5</gml:offsetVector>
+        </gml:RectifiedGrid>
+      </spatialDomain>
+    </domainSet>
+    <rangeSet>
+      <RangeSet>
+        <name>RIPRESA AEREA ICE 2009-2011</name>
+        <label>DTM5</label>
+        <nullValues>
+          <singleValue>-99</singleValue>
+        </nullValues>
+      </RangeSet>
+    </rangeSet>
+    <supportedCRSs>
+      <requestResponseCRSs>EPSG:32632</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:32633</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:23032</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:3064</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:4326</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:4258</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:3035</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:3034</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:3044</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:3045</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:3004</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:3003</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:23033</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:3065</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:32634</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:4806</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:4265</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:4230</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:4670</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:4267</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:4269</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:900913</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:25832</requestResponseCRSs>
+      <requestResponseCRSs>EPSG:3857</requestResponseCRSs>
+      <nativeCRSs>EPSG:32632</nativeCRSs>
+    </supportedCRSs>
+    <supportedFormats>
+      <formats>GEOTIFF_16</formats>
+    </supportedFormats>
+    <supportedInterpolations default="nearest neighbor">
+      <interpolationMethod>nearest neighbor</interpolationMethod>
+      <interpolationMethod>bilinear</interpolationMethod>
+    </supportedInterpolations>
+  </CoverageOffering>
+</CoverageDescription>
+
