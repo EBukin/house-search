@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Service004009_0014__00_ambiti_di_paesaggio",
+"xy_coordinate_resolution": 1e-08,
+"features": [
+{ "type": "Feature", "properties": { "FID": 0, "Gislink": 1, "Area": 44647621, "Perimeter": 32474, "Acad_angle": 0, "Foglio": 0, "Sigla": "Ambito Piana", "Acad_Text": "Ambito Piana" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 7.29104991, 44.76201163 ], [ 7.29115194, 44.7585514 ], [ 7.29732508, 44.75864363 ], [ 7.29722342, 44.76210387 ], [ 7.29104991, 44.76201163 ] ] ] } }
+]
+}

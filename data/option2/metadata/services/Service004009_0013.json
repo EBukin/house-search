@@ -1,0 +1,1310 @@
+{
+  "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0013/MapServer",
+  "service": {
+    "currentVersion": 10.81,
+    "serviceDescription": "",
+    "mapName": "Tavola P2",
+    "description": "",
+    "copyrightText": "",
+    "supportsDynamicLayers": true,
+    "layers": [
+      {
+        "id": 0,
+        "name": "Lettera h) Le zone gravate da usi civici",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 1,
+        "name": "Lettera c) I fiumi, i torrenti,i corsi d'acqua",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolyline"
+      },
+      {
+        "id": 2,
+        "name": "Lettera c) Fasce di 150m",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      },
+      {
+        "id": 3,
+        "name": "Lettera d) Le montagne per la parte eccedente",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      },
+      {
+        "id": 4,
+        "name": "Lettera e) I ghiacciai",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      },
+      {
+        "id": 5,
+        "name": "Lettera g) i territori coperti da foreste e boschi",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      }
+    ],
+    "tables": [],
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    },
+    "singleFusedMapCache": true,
+    "tileInfo": {
+      "rows": 256,
+      "cols": 256,
+      "dpi": 96,
+      "format": "PNG",
+      "compressionQuality": 0,
+      "origin": {
+        "x": -20037508.342787,
+        "y": 20037508.342787
+      },
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+      },
+      "lods": [
+        {
+          "level": 0,
+          "resolution": 156543.033928,
+          "scale": 591657527.591555
+        },
+        {
+          "level": 1,
+          "resolution": 78271.5169639999,
+          "scale": 295828763.795777
+        },
+        {
+          "level": 2,
+          "resolution": 39135.7584820001,
+          "scale": 147914381.897889
+        },
+        {
+          "level": 3,
+          "resolution": 19567.8792409999,
+          "scale": 73957190.948944
+        },
+        {
+          "level": 4,
+          "resolution": 9783.93962049996,
+          "scale": 36978595.474472
+        },
+        {
+          "level": 5,
+          "resolution": 4891.96981024998,
+          "scale": 18489297.737236
+        },
+        {
+          "level": 6,
+          "resolution": 2445.98490512499,
+          "scale": 9244648.868618
+        },
+        {
+          "level": 7,
+          "resolution": 1222.99245256249,
+          "scale": 4622324.434309
+        },
+        {
+          "level": 8,
+          "resolution": 611.49622628138,
+          "scale": 2311162.217155
+        },
+        {
+          "level": 9,
+          "resolution": 305.748113140558,
+          "scale": 1155581.108577
+        },
+        {
+          "level": 10,
+          "resolution": 152.874056570411,
+          "scale": 577790.554289
+        },
+        {
+          "level": 11,
+          "resolution": 76.4370282850732,
+          "scale": 288895.277144
+        },
+        {
+          "level": 12,
+          "resolution": 38.2185141425366,
+          "scale": 144447.638572
+        },
+        {
+          "level": 13,
+          "resolution": 19.1092570712683,
+          "scale": 72223.819286
+        },
+        {
+          "level": 14,
+          "resolution": 9.55462853563415,
+          "scale": 36111.909643
+        },
+        {
+          "level": 15,
+          "resolution": 4.77731426794937,
+          "scale": 18055.954822
+        },
+        {
+          "level": 16,
+          "resolution": 2.38865713397468,
+          "scale": 9027.977411
+        },
+        {
+          "level": 17,
+          "resolution": 1.19432856685505,
+          "scale": 4513.988705
+        },
+        {
+          "level": 18,
+          "resolution": 0.597164283559817,
+          "scale": 2256.994353
+        },
+        {
+          "level": 19,
+          "resolution": 0.298582141647617,
+          "scale": 1128.497176
+        }
+      ]
+    },
+    "initialExtent": {
+      "xmin": 791876.822092906,
+      "ymin": 5569276.89286521,
+      "xmax": 822024.095993759,
+      "ymax": 5595538.00722216,
+      "spatialReference": {
+        "cs": "pcs",
+        "wkid": 102100
+      }
+    },
+    "fullExtent": {
+      "xmin": 791524.206637926,
+      "ymin": 5572153.24538703,
+      "xmax": 822385.756835337,
+      "ymax": 5592652.53865825,
+      "spatialReference": {
+        "cs": "pcs",
+        "wkid": 102100
+      }
+    },
+    "minScale": 36111.909643,
+    "maxScale": 1128.497176,
+    "units": "esriMeters",
+    "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+    "documentInfo": {
+      "Title": "GisMaster.mxd",
+      "Author": "GiorgioMusso",
+      "Comments": "",
+      "Subject": "",
+      "Category": "",
+      "AntialiasingMode": "None",
+      "TextAntialiasingMode": "Force",
+      "Keywords": ""
+    },
+    "capabilities": "Map,Query,Data",
+    "supportedQueryFormats": "JSON, geoJSON",
+    "exportTilesAllowed": false,
+    "referenceScale": 2000,
+    "datumTransformations": [
+      {
+        "geoTransforms": [
+          {
+            "wkid": 108001,
+            "latestWkid": 1241,
+            "transformForward": true,
+            "name": "NAD_1927_To_NAD_1983_NADCON"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 108001,
+            "latestWkid": 1241,
+            "transformForward": false,
+            "name": "NAD_1927_To_NAD_1983_NADCON"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 8175,
+            "latestWkid": 8175,
+            "transformForward": true,
+            "name": "Monte_Mario_Rome_To_WGS_1984"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 8175,
+            "latestWkid": 8175,
+            "transformForward": false,
+            "name": "Monte_Mario_Rome_To_WGS_1984"
+          }
+        ]
+      }
+    ],
+    "supportsDatumTransformation": true,
+    "maxRecordCount": 1000,
+    "maxImageHeight": 4096,
+    "maxImageWidth": 4096,
+    "supportedExtensions": "KmlServer"
+  },
+  "layers": [
+    {
+      "currentVersion": 10.81,
+      "id": 0,
+      "name": "Lettera h) Le zone gravate da usi civici",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriPMS",
+            "url": "cfcc82085e891e6322d5d82f6e2b59b9",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAYAAAD0xERiAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAc1JREFUOI2t00tIVFEcx/HvOINXHbRyIWKJD4SchS/UuU4+ysGxcBRTNGcsURm1wXQxCCm6GbJ0KUYLdZR0exFEdBbuBEEd0IWEG3UTSNHmLKSHFwxbxNQ1o2bU3+Zw/ud/Pvw5cAxcYQwh9OjyyZjY5sANnF4KsyG7XtJpe4Gv1U9g9jLYtWasTjOmtHrKW/wEFODrhTAH1gEHlRaAJmzyCpt9CqvDF8EyO6ktjSIyGsBIlLGZ+zaF1bfAYVhYD3XPyym4o61VU2xxYe+fwd8bDlbjkRy5OhWdtqhHb3hKXf5C/IYshAiEgkmjdDxOV2/lnfCdRdbYYY9qSjFjohCTpUVUdI+j/B+7TYq7myYZYJNdGhgCYJg5PrFMAjfok5zZ46ryCFD+hd300lYWR0wqwBGfzxx+4RiAZDUhd4Suh4NMLQHf/orZkXsbqbAG9yXk0EEN0yzxBg8pJP7q7aGxcJJ593vE2DlMkqRir9pl0hNxPViLw8gUA7zGQzTSmSljicnw4ja3M5IEfNBiEW1qpbOAzKo/31AH56BgnvDg3oS0+Cyg7g5pMVcR2fZ13oXy8bVJvKtm1e/Hf1wQQmwFL/vaeeULE/od8XP5ASOedMG92ierAAAAAElFTkSuQmCC",
+            "contentType": "image/png",
+            "width": 14,
+            "height": 12,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 807556.842341913,
+        "ymin": 5582722.24983035,
+        "xmax": 807556.842341913,
+        "ymax": 5582722.24983035,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "ACAD_TEXT",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID",
+          "domain": null
+        },
+        {
+          "name": "GISLINK",
+          "type": "esriFieldTypeDouble",
+          "alias": "GISLINK",
+          "domain": null
+        },
+        {
+          "name": "ACAD_TEXT",
+          "type": "esriFieldTypeString",
+          "alias": "ACAD_TEXT",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "ACAD_ANGLE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ACAD_ANGLE",
+          "domain": null
+        },
+        {
+          "name": "ACAD_BLOCK",
+          "type": "esriFieldTypeInteger",
+          "alias": "ACAD_BLOCK",
+          "domain": null
+        },
+        {
+          "name": "Acad_Color",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_Color",
+          "domain": null
+        },
+        {
+          "name": "Sigla",
+          "type": "esriFieldTypeString",
+          "alias": "Sigla",
+          "length": 20,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 1,
+      "name": "Lettera c) I fiumi, i torrenti,i corsi d'acqua",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolyline",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              102,
+              153,
+              205,
+              255
+            ],
+            "width": 2
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 797877.096916813,
+        "ymin": 5578963.68147529,
+        "xmax": 819651.781382516,
+        "ymax": 5586343.47930238,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "AP_DENOMIN",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "AP_DENOMIN",
+          "type": "esriFieldTypeString",
+          "alias": "AP_DENOMIN",
+          "length": 100,
+          "domain": null
+        },
+        {
+          "name": "AP_LIMITI",
+          "type": "esriFieldTypeString",
+          "alias": "AP_LIMITI",
+          "length": 254,
+          "domain": null
+        },
+        {
+          "name": "GR_TOPONIM",
+          "type": "esriFieldTypeString",
+          "alias": "GR_TOPONIM",
+          "length": 254,
+          "domain": null
+        },
+        {
+          "name": "NR_RD",
+          "type": "esriFieldTypeString",
+          "alias": "NR_RD",
+          "length": 25,
+          "domain": null
+        },
+        {
+          "name": "IGM",
+          "type": "esriFieldTypeString",
+          "alias": "IGM",
+          "length": 100,
+          "domain": null
+        },
+        {
+          "name": "PRG",
+          "type": "esriFieldTypeString",
+          "alias": "PRG",
+          "length": 100,
+          "domain": null
+        },
+        {
+          "name": "ORIGINALI",
+          "type": "esriFieldTypeString",
+          "alias": "ORIGINALI",
+          "length": 100,
+          "domain": null
+        },
+        {
+          "name": "TOPONIMO",
+          "type": "esriFieldTypeString",
+          "alias": "TOPONIMO",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "REGIO_DECR",
+          "type": "esriFieldTypeString",
+          "alias": "REGIO_DECR",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "top_IGM",
+          "type": "esriFieldTypeString",
+          "alias": "top_IGM",
+          "length": 50,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 2,
+      "name": "Lettera c) Fasce di 150m",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSDash",
+              "color": [
+                0,
+                92,
+                230,
+                255
+              ],
+              "width": 2
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 797640.855051058,
+        "ymin": 5577791.6246894,
+        "xmax": 818195.598301146,
+        "ymax": 5587390.64307773,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Sigla",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "Sigla",
+          "type": "esriFieldTypeString",
+          "alias": "Sigla",
+          "length": 20,
+          "domain": null
+        },
+        {
+          "name": "Acad_Text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_Text",
+          "length": 30,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "hasZ": true,
+      "hasM": true,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 3,
+      "name": "Lettera d) Le montagne per la parte eccedente",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              137,
+              68,
+              68,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                137,
+                90,
+                68,
+                255
+              ],
+              "width": 3
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 795792.803528383,
+        "ymin": 5577351.96600968,
+        "xmax": 804770.02772113,
+        "ymax": 5584257.10009703,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Sigla",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "Sigla",
+          "type": "esriFieldTypeString",
+          "alias": "Sigla",
+          "length": 20,
+          "domain": null
+        },
+        {
+          "name": "Acad_Text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_Text",
+          "length": 30,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "hasZ": true,
+      "hasM": true,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 4,
+      "name": "Lettera e) I ghiacciai",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              145,
+              178,
+              255,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                77,
+                168,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 799840.055775079,
+        "ymin": 5578473.60554427,
+        "xmax": 801384.431621377,
+        "ymax": 5579506.79078171,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Sigla",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "Sigla",
+          "type": "esriFieldTypeString",
+          "alias": "Sigla",
+          "length": 20,
+          "domain": null
+        },
+        {
+          "name": "Acad_Text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_Text",
+          "length": 30,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "hasZ": true,
+      "hasM": true,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 5,
+      "name": "Lettera g) i territori coperti da foreste e boschi",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              188,
+              255,
+              176,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 0.4
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 799100.206894134,
+        "ymin": 5578013.02205247,
+        "xmax": 818188.591570901,
+        "ymax": 5587340.97670292,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Sigla",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "Sigla",
+          "type": "esriFieldTypeString",
+          "alias": "Sigla",
+          "length": 20,
+          "domain": null
+        },
+        {
+          "name": "Acad_Text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_Text",
+          "length": 30,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "hasZ": true,
+      "hasM": true,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    }
+  ],
+  "tables": []
+}

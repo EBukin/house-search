@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Service004009_0014__01_unita_di_paesaggio",
+"xy_coordinate_resolution": 1e-08,
+"features": [
+{ "type": "Feature", "properties": { "FID": 0, "Gislink": 1, "Area": 8847120, "Perimeter": 12392, "Acad_angle": 0, "Foglio": 0, "Sigla": "Rurale Ril Integro", "Acad_Text": "Rurale Ril Integro|BB" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 7.29439506, 44.76007711 ], [ 7.29545108, 44.75861567 ], [ 7.29732508, 44.75864363 ], [ 7.29722673, 44.76199146 ], [ 7.29692026, 44.76186067 ], [ 7.29444375, 44.76193107 ], [ 7.29439506, 44.76007711 ] ] ] } },
+{ "type": "Feature", "properties": { "FID": 5, "Gislink": 6, "Area": 18115485, "Perimeter": 18645, "Acad_angle": 0, "Foglio": 0, "Sigla": "Rurale", "Acad_Text": "Rurale|Montoso" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 7.29439506, 44.76007711 ], [ 7.29444375, 44.76193107 ], [ 7.29284004, 44.76197342 ], [ 7.29105183, 44.76194668 ], [ 7.29115194, 44.7585514 ], [ 7.29545108, 44.75861567 ], [ 7.29439506, 44.76007711 ] ] ] } }
+]
+}

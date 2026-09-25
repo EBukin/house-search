@@ -1,0 +1,86 @@
+{
+  "portal_url": "https://geoportale.sportellounicodigitale.it/GisMaster/Default.aspx?IdCliente=004009&IdSer=1",
+  "id_cliente": "004009",
+  "services": [
+    {
+      "service": "Service004009_0010",
+      "idServiceType": "2",
+      "visible": "true",
+      "serviceLnk": "",
+      "idServiceTypeLnk": "0",
+      "opacity": "100"
+    },
+    {
+      "service": "Node",
+      "idServiceType": "0",
+      "visible": "false",
+      "serviceLnk": "",
+      "idServiceTypeLnk": "0",
+      "opacity": "100"
+    },
+    {
+      "service": "Service004009_0011",
+      "idServiceType": "2",
+      "visible": "false",
+      "serviceLnk": "",
+      "idServiceTypeLnk": "0",
+      "opacity": "100"
+    },
+    {
+      "service": "Service004009_0012",
+      "idServiceType": "2",
+      "visible": "true",
+      "serviceLnk": "",
+      "idServiceTypeLnk": "0",
+      "opacity": "100"
+    },
+    {
+      "service": "Node",
+      "idServiceType": "0",
+      "visible": "false",
+      "serviceLnk": "",
+      "idServiceTypeLnk": "0",
+      "opacity": "100"
+    },
+    {
+      "service": "Service004009_0013",
+      "idServiceType": "2",
+      "visible": "false",
+      "serviceLnk": "",
+      "idServiceTypeLnk": "0",
+      "opacity": "100"
+    },
+    {
+      "service": "Service004009_0014",
+      "idServiceType": "2",
+      "visible": "false",
+      "serviceLnk": "",
+      "idServiceTypeLnk": "0",
+      "opacity": "100"
+    },
+    {
+      "service": "Service004009_0015",
+      "idServiceType": "2",
+      "visible": "false",
+      "serviceLnk": "",
+      "idServiceTypeLnk": "0",
+      "opacity": "100"
+    },
+    {
+      "service": "GenLayer00010043",
+      "idServiceType": "0",
+      "visible": "false",
+      "serviceLnk": "",
+      "idServiceTypeLnk": "0",
+      "opacity": "100"
+    },
+    {
+      "service": "GenLayer00010081",
+      "idServiceType": "0",
+      "visible": "false",
+      "serviceLnk": "",
+      "idServiceTypeLnk": "0",
+      "opacity": "100"
+    }
+  ]
+}

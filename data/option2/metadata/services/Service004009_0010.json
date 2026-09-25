@@ -1,0 +1,4079 @@
+{
+  "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0010/MapServer",
+  "service": {
+    "currentVersion": 10.81,
+    "serviceDescription": "",
+    "mapName": "Cartografia catastale",
+    "description": "",
+    "copyrightText": "",
+    "supportsDynamicLayers": true,
+    "layers": [
+      {
+        "id": 0,
+        "name": "Simboli catastali",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 5000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 1,
+        "name": "Testi acque",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 6000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 2,
+        "name": "Testi confine",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 9000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 3,
+        "name": "Testi particelle",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 3000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 4,
+        "name": "Testi strade",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 6000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 5,
+        "name": "Riporti particelle",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 3000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolyline"
+      },
+      {
+        "id": 6,
+        "name": "Frazionamenti non catastali",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 25000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolyline"
+      },
+      {
+        "id": 7,
+        "name": "Linee non catastali",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 25000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolyline"
+      },
+      {
+        "id": 8,
+        "name": "ed_prg",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 10000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      },
+      {
+        "id": 9,
+        "name": "ed_tm",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 10000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      },
+      {
+        "id": 10,
+        "name": "Tettoia",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 10000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      },
+      {
+        "id": 11,
+        "name": "Varie",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 20000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolyline"
+      },
+      {
+        "id": 12,
+        "name": "Edifici catastali",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 40000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      },
+      {
+        "id": 13,
+        "name": "Acque",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 40000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      },
+      {
+        "id": 14,
+        "name": "Strade",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 40000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      },
+      {
+        "id": 15,
+        "name": "Particelle catastali",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 40000,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      },
+      {
+        "id": 16,
+        "name": "Confini catastali",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 25000,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      }
+    ],
+    "tables": [],
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    },
+    "singleFusedMapCache": true,
+    "tileInfo": {
+      "rows": 256,
+      "cols": 256,
+      "dpi": 96,
+      "format": "PNG",
+      "compressionQuality": 0,
+      "origin": {
+        "x": -20037508.342787,
+        "y": 20037508.342787
+      },
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+      },
+      "lods": [
+        {
+          "level": 0,
+          "resolution": 156543.033928,
+          "scale": 591657527.591555
+        },
+        {
+          "level": 1,
+          "resolution": 78271.5169639999,
+          "scale": 295828763.795777
+        },
+        {
+          "level": 2,
+          "resolution": 39135.7584820001,
+          "scale": 147914381.897889
+        },
+        {
+          "level": 3,
+          "resolution": 19567.8792409999,
+          "scale": 73957190.948944
+        },
+        {
+          "level": 4,
+          "resolution": 9783.93962049996,
+          "scale": 36978595.474472
+        },
+        {
+          "level": 5,
+          "resolution": 4891.96981024998,
+          "scale": 18489297.737236
+        },
+        {
+          "level": 6,
+          "resolution": 2445.98490512499,
+          "scale": 9244648.868618
+        },
+        {
+          "level": 7,
+          "resolution": 1222.99245256249,
+          "scale": 4622324.434309
+        },
+        {
+          "level": 8,
+          "resolution": 611.49622628138,
+          "scale": 2311162.217155
+        },
+        {
+          "level": 9,
+          "resolution": 305.748113140558,
+          "scale": 1155581.108577
+        },
+        {
+          "level": 10,
+          "resolution": 152.874056570411,
+          "scale": 577790.554289
+        },
+        {
+          "level": 11,
+          "resolution": 76.4370282850732,
+          "scale": 288895.277144
+        },
+        {
+          "level": 12,
+          "resolution": 38.2185141425366,
+          "scale": 144447.638572
+        },
+        {
+          "level": 13,
+          "resolution": 19.1092570712683,
+          "scale": 72223.819286
+        },
+        {
+          "level": 14,
+          "resolution": 9.55462853563415,
+          "scale": 36111.909643
+        },
+        {
+          "level": 15,
+          "resolution": 4.77731426794937,
+          "scale": 18055.954822
+        },
+        {
+          "level": 16,
+          "resolution": 2.38865713397468,
+          "scale": 9027.977411
+        },
+        {
+          "level": 17,
+          "resolution": 1.19432856685505,
+          "scale": 4513.988705
+        },
+        {
+          "level": 18,
+          "resolution": 0.597164283559817,
+          "scale": 2256.994353
+        },
+        {
+          "level": 19,
+          "resolution": 0.298582141647617,
+          "scale": 1128.497176
+        },
+        {
+          "level": 20,
+          "resolution": 0.149291070823808,
+          "scale": 564.248588
+        },
+        {
+          "level": 21,
+          "resolution": 0.0746455354119042,
+          "scale": 282.124294
+        },
+        {
+          "level": 22,
+          "resolution": 0.0373227677059521,
+          "scale": 141.062147
+        },
+        {
+          "level": 23,
+          "resolution": 0.018661383852976,
+          "scale": 70.5310735
+        }
+      ]
+    },
+    "initialExtent": {
+      "xmin": 793610.98548254,
+      "ymin": 5578552.40929189,
+      "xmax": 819396.397429169,
+      "ymax": 5595447.55769041,
+      "spatialReference": {
+        "cs": "pcs",
+        "wkid": 102100
+      }
+    },
+    "fullExtent": {
+      "xmin": 794949.550255932,
+      "ymin": 5576891.33705288,
+      "xmax": 818264.946245768,
+      "ymax": 5587485.59539986,
+      "spatialReference": {
+        "cs": "pcs",
+        "wkid": 102100
+      }
+    },
+    "minScale": 577790.554289,
+    "maxScale": 1128.497176,
+    "minLOD": 10,
+    "maxLOD": 19,
+    "units": "esriMeters",
+    "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+    "documentInfo": {
+      "Title": "GisMaster.mxd",
+      "Author": "GiorgioMusso",
+      "Comments": "",
+      "Subject": "",
+      "Category": "",
+      "AntialiasingMode": "None",
+      "TextAntialiasingMode": "Force",
+      "Keywords": ""
+    },
+    "capabilities": "Map,Query,Data",
+    "supportedQueryFormats": "JSON, geoJSON",
+    "exportTilesAllowed": false,
+    "referenceScale": 2000,
+    "datumTransformations": [
+      {
+        "geoTransforms": [
+          {
+            "wkid": 108001,
+            "latestWkid": 1241,
+            "transformForward": true,
+            "name": "NAD_1927_To_NAD_1983_NADCON"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 108001,
+            "latestWkid": 1241,
+            "transformForward": false,
+            "name": "NAD_1927_To_NAD_1983_NADCON"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 8175,
+            "latestWkid": 8175,
+            "transformForward": true,
+            "name": "Monte_Mario_Rome_To_WGS_1984"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 8175,
+            "latestWkid": 8175,
+            "transformForward": false,
+            "name": "Monte_Mario_Rome_To_WGS_1984"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 1660,
+            "latestWkid": 1660,
+            "transformForward": true,
+            "name": "Monte_Mario_To_WGS_1984_4"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 1660,
+            "latestWkid": 1660,
+            "transformForward": false,
+            "name": "Monte_Mario_To_WGS_1984_4"
+          }
+        ]
+      }
+    ],
+    "supportsDatumTransformation": true,
+    "maxRecordCount": 1000,
+    "maxImageHeight": 4096,
+    "maxImageWidth": 4096,
+    "supportedExtensions": "KmlServer"
+  },
+  "layers": [
+    {
+      "currentVersion": 10.81,
+      "id": 0,
+      "name": "Simboli catastali",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 5000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "symbolLayerDrawing": {
+          "type": "CIMSymbolLayerDrawing",
+          "symbolLayers": [
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_289",
+              "symbolLayerName": "Level_33"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_257",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_268",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_271",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_272",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_274",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_275",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_276",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_277",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_278",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_279",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_280",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_282",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_283",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_284",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_285",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_286",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_287",
+              "symbolLayerName": "Level_30"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_273",
+              "symbolLayerName": "Level_15"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_281",
+              "symbolLayerName": "Level_7"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_258",
+              "symbolLayerName": "Level_0"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_259",
+              "symbolLayerName": "Level_0"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_260",
+              "symbolLayerName": "Level_0"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_261",
+              "symbolLayerName": "Level_0"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_262",
+              "symbolLayerName": "Level_0"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_263",
+              "symbolLayerName": "Level_0"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_264",
+              "symbolLayerName": "Level_0"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_265",
+              "symbolLayerName": "Level_0"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_266",
+              "symbolLayerName": "Level_0"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_267",
+              "symbolLayerName": "Level_0"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_269",
+              "symbolLayerName": "Level_0"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_270",
+              "symbolLayerName": "Level_0"
+            },
+            {
+              "type": "CIMSymbolLayerIdentifier",
+              "symbolReferenceName": "Symbol_288",
+              "symbolLayerName": "Level_0"
+            }
+          ],
+          "useSymbolLayerDrawing": true
+        },
+        "renderer": {
+          "type": "uniqueValue",
+          "field1": "ACAD_TEXT",
+          "field2": null,
+          "field3": null,
+          "defaultSymbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [
+              0,
+              69,
+              173,
+              255
+            ],
+            "size": 4,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 1
+            }
+          },
+          "defaultLabel": "<all other values>",
+          "uniqueValueInfos": [
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "3120d76daf535e637703e3211d90e0b3",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAYAAACuyE5IAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAEBJREFUCJldyqENgEAQAMERl5ygCOiJPijla6CB74NyMIgTn2AQwJo1E1ix48Tw7Qh0zFiw/YB43jKzVdWE6w1u4FIKK04ns5gAAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 2,
+                "angle": 0,
+                "xoffset": -0.70866,
+                "yoffset": 0
+              },
+              "value": "1",
+              "label": "1",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "6600f9c5eee31e68915ebdecd883d1b4",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAKCAYAAACJxx+AAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAMxJREFUGJVNkMFGxFEchb/F5aRLdKlcmWVm26JHGCLaFT1BD9E29TKzaNcyImY9i5lFWsZPqh8tiiPSotL/bL/PcZzCf1aA7d57jYgAngEKgKRz2yfAS0R8Ag14672fFkn7tjeBMfD1V9da24uIy2J7BMyGECAzl4AKcAVMgYmkB9sfktZtHwAXBXj9hRPbu5JWbT8Cx8B9AbZaayMga603ALVWgLXMHBdJO5l5DcyBp+EOSYti+07Soe0z4Ggo2P75wfYtsAFU4H0ofQMgRk8sEuXAYQAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 7,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "10",
+              "label": "10",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "649ef1199ef355bc479997d5e87d6913",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAHpJREFUGJV1zrEJAkEUhOEvWHiB2TagjViCkaGRkZklWMK1oA1YgFZgbg2yqckhKwgmBseyTjIw88NMwgo7HUXEPeGCTUQ8cs7HKVBKGRPe2NZar6WUA8YplH7+wrI3k3phC6xxwhOfpr8lnDHHAvt/E0NEDLXWWXvyCzdFHMRWLbrOAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 6,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "11",
+              "label": "11",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "8a71d3de3a702b1d735c799e77efff45",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAALCAYAAABCm8wlAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAMZJREFUGJVtzqFKhEEUhuFHHRjzBOFPJq9BWPASFixatGjRqzB5H9pEUBBBROMGwWKxqkV0sExb5BjE8u+6YV/4wjkcvvMm/yzid2ZewHLCEs6wjk/s4hWrOE0Y5pzfImI75zyIiAtsTmoSViLiCSLioZRy2Fq77Lpuv9Yq4RbXGOOmtfaI49baOb4S3rGFtRnBKzQMUr946TMlIkYYJQxxYA455+eEO+zknD9KKSezB7XWccIP9iLivtZ61MtOmTh8Y2Pemz8Hs0QK0FzVdgAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 8,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "12",
+              "label": "12",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "e78051f6a8a448f0c4639158d7a6138f",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAKCAYAAACJxx+AAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAMJJREFUGJVlzzFKREEQhOEPGWjwYTIiYrAgguw9BMHETAzMvIaGHmCNTRYvYLIgpgt7AQMPoKKwyRgpdKTJBA/sqOn6u6gq/s8GpnjFT+nH64i4yMwbXGI7IraGYTgvEXGcmZPMPME9Fphl5n5m3pbMPMAK75jVWtetNfjAZukfT/jCoot7mGNZ8IkjDKOgv7jDQ8FurXXShZ0R9NZam5aIOGytPeIZ63HfiHgpmbmKiNPMvMLZGMhMpS/Lbj/gewz9ARRMRZcYj4v0AAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 7,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "13",
+              "label": "13",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "81a9c85af88b9c0a6cc4022f4d0ba441",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAALCAYAAABCm8wlAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAK9JREFUGJVt0LFKQ1EMxvGfcDDgeNeuvobg5KJdXDt1cnLQB/AROrv5EIpghy5ODoIg1CeQg4PgUiQ61OVcKeUGAkn4J1+SYth28QOlJXtbwCNO8FlwhNuIWGbmbwP2cYen0oLjzDzHJd7wgkN8ldZxj2dcY4GdXqsH4AOnuMAI621AK86a/08Y42zo1oh4LXjAJCLeu6672QRqravSHjLNzHmt9QqrTajf4RsHQzJ/qlkshBDb6Y0AAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 8,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "14",
+              "label": "14",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "1a7f57042db481b71f5092d330ce581c",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAALCAYAAABCm8wlAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAALlJREFUGJVtzzFKg0EUxPEfsvCwXUSwFGxstRSxF1NbWAmClxDRHMFGrDyBoKmSXMMDiEXYbrsQVkFtvi8EzB+meDC8mUn+s4Gf/kgRMWyt3eEXTzjHAvd4TK21UwwxwCa2EHjDOK283sELvjuNsJ8wxxQzbOM153xYa73CWcIJdnGAPai1HuEGn33ER6eeh+WKrtz1mrki4j1hgouImOWcn1cNpZR5whcuW2vTUsptV3pJ32GB43Uxf406M3+3Z19zAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 8,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "15",
+              "label": "15",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "5da840fe19be5919422c58d75ff1b3ae",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAALCAYAAABCm8wlAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAMJJREFUGJVtzzErhWEYxvEfHt3LsbyTM/sabBbJYlVi4jMYbJbzJXQmZVESUc6mhE0+gfSYnu3ErZTFIL3X+r/qf11Ff+bwDQWzETHKzMlwOHyttY6xhBfsFGxm5gImtdbLruv2W2sPEbGcmUcFA9zjEzOttUfIzDscFJzjFoOIeMrME5xhHVcFDWvYzsxFzGMVFzgtv6vfMeq7U7CBvT4YEc8F19iKiLeu647/Fmqt04Iv7GbmTa31ENP/CvjASp/mByK/Rho7K8tnAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 8,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "16",
+              "label": "16",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "60c50ed65b78622dd5435b655d7e4d97",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAKCAYAAACJxx+AAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAK5JREFUGJVtzzFKQ1EQBdCDPBjkFcIHwQ24A0EQXEK6lDaWgisQSzeipYWFgnXENJYW2UMsMo0oDBZaiPIJmfpw752GHWxjacM1HOMap7jfBOAWJziPiKuqesb3P4iIVVWdDcNwmJmXuMEDZm0cl5kvmGAPR9hqWGC1Vr3E3V/FZ+/9q/d+sD4wM99bROxn5iNe8TYGEbFoVTWPiElVXWA6BlX1+0VVPWEXHR9j9APR7jd0Pu4ybQAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 7,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "17",
+              "label": "17",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "de301d4fe2cd3451d012b674add8bc6d",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAKCAYAAACJxx+AAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAALxJREFUGJVlzz8rxXEcxfFXt299Btstf1JsshqkjB6AMpjukzAqj0KS2RNguWUiKU/AwC4ZlH4MDGdi+aZbznI+nU7vT6f5rxHW8YKv1oNj7OAE+xhV1TIOGvaqKkk2cYkpTpMs4LxhnOQJwTNe+6t3/DRc4AYTfOKwqjaSbOG24QPbWOqE1SQTnGHasDgej1c6dr77NQzDsN6qam0Yhis84G12b1U9tiT3VbWb5KhP/FMSrR93HT+H79nSL1ypPy8yNQVAAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 7,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "18",
+              "label": "18",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "73e1ba56c0aae854f4304482d2548610",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAKCAYAAACJxx+AAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAM1JREFUGJVN0K1KhFEYBOBHPPCCP+WgyCpsEGSbdrFbtClYvY3NIl6GV2DTYBPWYjPYLBY/LQcMhlfwJ/jB7sCkGWaYKaZYHgwGQ+i6rkOD0otjnHRdt4B5vOALpyUi9rGUmduYwyXGtdaV1tpFycwhnvuk34h4y8yd1totNgquMYmIUR9/gHNcRcSk4BV7mXmMb+zio9Z61lp7KFirta7jvq/Z7PmDUYmIrdbaDR7xPjNbRDyVzJxExGFmjnE0a8jM/x8y8w6rWMTnrOkPyR5HHad90zQAAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 7,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "19",
+              "label": "19",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "257a9814db392085f5ba9085e041f954",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAIdJREFUCJlFyiFqwnEchvFP+MGXYRBWBE8x+JsEDzEMHsToARaMtt1hxa1YTLvBggyshjFYVN4gGFT2lAcenuZKr6q6JDv83tpDVT019PGZ5KuqRknmeMcgyUvDM1Z4TfKIdVWdkuyh4Xwz/GGaZIPFfXjDFj0s8YMZPnBoOGKCoX++Ma6q7gJjIym+DB1QngAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 4,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "2",
+              "label": "2",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "8952cb727890eff40c307e0df02eb180",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAALCAYAAABCm8wlAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAN9JREFUGJVN0L8rxHEcx/HH5VOfK6ZTchlMymRS6v4Ci7JgMbHcxD+h/AtGSV3KlfwMi0lJ+Q/uBuouy2dieKcw+Kp7Lq/p9erVM/ljGtuYxzgGOeeLiLhNmMENDnLOx/iKiMmIaGMxYRn76ESEEbq4TznnXkTs4Bl9fKOODbymiHjABI6wgBo+cIfdVM1d4rpq1/BTZT1hDB0sYYBN9DCLw4SVnHM/ItZzzq2IOMXq/9OEqYh4gYh4bDQa7VJKt9lsbg2HQ6lycI5PXJVSnrBXSjnBe8Ib1jA34uAMBa1fU29SCvizWdYAAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 8,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "20",
+              "label": "20",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "6f5c56d2d88f1636ec5363a65e8381f8",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAALCAYAAABCm8wlAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAK5JREFUGJWFzy8vxXEcxfFX+G6foP2axBSR6iHYJH+egwmCTbjtBhvB7m5nIyiC5kEYgqx5AL5TbE6wKRS75tRz9t77NP+kYQuXeMPnr/6u4QYLWMT+LAJMqmqSZA7vswaSHPzlAHvYrqr7JGN8YB7jVlVrSdaxm2QTt9hAYbklWcU5nnGCV1zhENowDA+99yM84QVnVbWUZAqt9/6IC+zg9Ft4hBFWfiSvZxw4hi9VVjhUxAIPjgAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 8,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "21",
+              "label": "21",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "c4cc0423c367d3e598b8bd94a6ebe2a4",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAIpJREFUCJllzjFKA2EUReGP8MODDDZjlUIINu5DEFyBRbqswzILGGsbcQM209gG3EgQBZtJF7iVNlMEvOU5HLjN/y1wgwNObYaPVbVJssMWl1V10XXdQ6uquyRXSe7xihFDknWSp5bkGh/4xND3/c80TfCFZZuLdxwxznKFF+wbvnGL7uzoL57x9gcYzithuew5LAAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 4,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "3",
+              "label": "3",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "f457a504d53edfe36e24d0d09c3e6bca",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAINJREFUCJltzSFqQ1EURdElHlzzTZ+I7BQKFRUhIlPIZEIK0bVVlYXazqMqRGQGIVB9qb2khJj/ISJHL85u7iwi5lW1w3/DI55vQVW9YxsRp9Z7n2XmJ34i4jiCAYuqemiZuccTPqrqgC8s8Yq/Nr7+YoUNvjFMuQnABW+995fMXOMMV7ZIKNr4+mBxAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 4,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "4",
+              "label": "4",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "c270dd8bc0ac842c8177111d230a1ad4",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAIxJREFUCJlVzaFNg1EYRuGH5NIvqbwNYQV0CQswAA7TBMkAnYIp0J2gEzRoTB0JwV0EoohfvKIJpqIcd8w5zX9mVXXXe/8dY+yhYYsHzPGW5GeMMccnVg3XuMAjNng51V5778t2kksc8XW2+5im6apV1Q7vSVJVlWSDJzwnuW1J1lhjgRuoqu8k9zj8AcIhLUVwFo7zAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 4,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "5",
+              "label": "5",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "ce97b5f11149849aef95ae22b6568846",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAIhJREFUCJlFzSGKQmEUQOEv/My1DTwEt6CCUZMLcAOuwapbEMRtCGbLME2wazPaLZYnFuHKzGB5MCeddE7xzwde6ERELzPPuBd8Yo8lWlhn5gVdzAum2OIbJ4xwRxubghr9ZnPDX+NP/BZ8YYYdHhFxyswDxhGxKPjBpKqqYV3Xg8w8NtVVZl7fN8wrLn2rkV8AAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 4,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "6",
+              "label": "6",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "6f2088fcc7cf18cd43b5ac943100a783",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAHBJREFUCJltzbEJAkEUANGHLCxGwkZ2IgiWYAcmhsKVYGgjGhoYaAOCkQXYwyX38x9pJiI38TBTMMMUvREKVjhii+uYAGds0NVaD5n5wPsr1FqHzNy11hYRsccJN9zLby4inlhjjiUmBS8Mf+seF/gALhQbbLKYi7wAAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 4,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "7",
+              "label": "7",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "e34662f910b98929bed1961e23c0312d",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAH1JREFUCJllzSGKgmEcBvEf8sK/GxYxWK0GWTB6A4PJSxi9hohs3gu4xbx4C7uIbWENlidp+ZoTJ8w07/QwxhWP1okt5thhiV5VDbFuWFRVkkzxgyP2ST7w3dBPckZwwa1b/eHZcMAvVrhjU1WTJJ84NfxjhkFXGCVZ4QvHF6fgJR/xpX+bAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 4,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "8",
+              "label": "8",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "f6868a0741af08d73bb31ff88a54ba3d",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAI9JREFUCJlFzKFKg2EUgOFH/OCAuPJh+RFWba6PdcuqYPU2lkW8DK/AZjEveQ0rFr+lA8YjiJYffOsLT/PfYpqmJYwxBhLaPHe4G2Oc4RQf+MZ9i4gbnFfVNU7wjF3v/SIzn1pVLXGYpd+IOFbVKjPfcNnwin1EXM38Fo94iYh9wyc2VXWLH6zx1Xt/yMz3P8GJLqSmpVm2AAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 6,
+                "height": 4,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "9",
+              "label": "9",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "460e6bc0af62f31c0e388a2191f8b9c2",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAKdJREFUWIXt1rEJQjEUheEffBKw0j47OIS7OI9TWNm5kpUbXESweUIai/NywYjnr1IdPkiKTAza9G3ApzJhO2AN3DPGMmEHoAKnjLG/uMrUDFMzTM0wNcPUDFMzTK2FbYBjx9Ye2PZxODP/51rYE7gtXSyl1IigZwN4vA8tLIDL0sUZVXs22n7ijQ2VYWqGqRmmZpiaYWqGqWXCrsAqaywTFolb417lC5I2EqpW4JwTAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 28,
+                "height": 28,
+                "angle": 0,
+                "xoffset": 9.354312,
+                "yoffset": 0
+              },
+              "value": "¥",
+              "label": "¥",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "5eade2dd7b75bb8aceb248f32b93405b",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAaCAYAAAC+aNwHAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAANRJREFUOI3t0DFKA0EYhuEHDMxhchStjEdQ8QgWomjhgoKKdeINtBE8kY1H+NVFCzMyxJ1kF0kh+FXTvA8/M/LLjdYKpJQatBFxNBhIKTURcTh/txFx0hsoY4iIY7Q4WwksxsVO8YamCiyJ887xjssfQI8472KOXH8DA+K8K19/cjvCRkSMB8R543xBix3cY6tnPMVBBuAVk57IFPv4KIESecBmJZ6V8SKQke0KMsNeGXcBNeSuK64BGZngES/Y7YqXARB4wnMtXgX02j/wF4CbtV/wCRm1TyWoD0KQAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 12,
+                "height": 19,
+                "angle": 0,
+                "xoffset": 8.50392,
+                "yoffset": 0
+              },
+              "value": "¦",
+              "label": "¦",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "2d0172b8d93dc7c8b2eedbd32ab4967e",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAYAAAALCAYAAABcUvyWAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAIFJREFUGJVlzS0KAlEYheFHuTDJ4LcWQew2k8FitrkfMYrgCtyEdvcwbWDAMv5hmcGrnvqe857kkz56eELKwABz3HHIQY1dRIwxygGoquqM1R8oimIaEacOBCZITdPcyrK8JAyxxBaPbpkwwwavXNmper9fCUes29WXqsYei7Z0hTdYARyGewJI8QAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 4,
+                "height": 8,
+                "angle": 0,
+                "xoffset": 2.83464,
+                "yoffset": 0
+              },
+              "value": "©",
+              "label": "©",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "b600750257ca5d14d3d2ddaf806981fc",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAFtJREFUGJXFyrsNwlAUBNFj6Um3A0I6ciskdEADhG7CGR24HCIkog34JLZsS+RMNKvZhg49DlY+uLVZJpzwrKojxiT3Nj8fuFTVNckZb2j2vJbwK+74e0wybPcXun0WBGcAHk8AAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 5,
+                "height": 7,
+                "angle": 0,
+                "xoffset": 3.685032,
+                "yoffset": 0
+              },
+              "value": "«",
+              "label": "«",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "731c3fc524cedad04e3418c0977712b1",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAARVJREFUKJGdkM0uQ1EUhb/+JBt30GR7ADGpsQkVA1HvLDSUQSdI8AbCoGY7ojlYoa2Be+W2bjuwZmdlf2evvZr8U80Kr2Vme8BUUj33BsBoIejunZSSSeoBk9xumNlBlmUvEXH7B3T3TkQ8AcO5BGNJfUkb7r4dEXdlsJVSWqmAynpMKbWBVeC9APclnSyBAJB0aWaHknoFOC3dVETfjYh14LhkfwL1mRsrNDGzsaT5rbUyWAMawLgYiIibis/MzL4k/YKDPPvZshuBrqSL8sbXLMtGkjaBhwVQ292fI+KjDBIRV+6+k1LaknTOTxEABhy5+zAi7ov5mXIi4hpYM7MuUJNUzwvqF5sqwVxvkk6Lx3yrhb4B846K0LjAc8UAAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 10,
+                "height": 10,
+                "angle": 0,
+                "xoffset": 2.409444,
+                "yoffset": 0
+              },
+              "value": "¬",
+              "label": "¬",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "8f509b4338bf2d5e5692d8251fcd559d",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAMAAAAUCAYAAABI+4ecAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAFVJREFUGJXNizENgFAQxTq85DScCXbCjhg+CUrYWRCABWwg4k8IeAMJCwNBAd2atOKFgAFYgSLgBPbMHAVsEdHWWg99nz9Lsd1ERCfgAnrbk4DlqeYbKCQSNl3QQxwAAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 2,
+                "height": 15,
+                "angle": 0,
+                "xoffset": 3.401568,
+                "yoffset": 0
+              },
+              "value": "­",
+              "label": "­",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "67b933f445925e0328c16f3a3ad53070",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAYAAAA3CAYAAAAv6jtAAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAKRJREFUOI3t0CFLBGEQBuDnvA8/rxg2X9ZgsJmuneA/MFn8WSajVQwW0/0Oq/FAONiDl0O07JYVi7BtB4YJzzADb/FHlXHgtJu7IazxhZchnHfw69QMR0M4wztOsMRHD9d4wgI3eOyhwWfXy/7UMb7xgEOtdZtkVmqtqyRXeMU+yX3TNJcFc9xh3W3ftm17UZK8DdLYJtmMlO4EE0zwD3hOMsaPH0WVLgE1GjCTAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 4,
+                "height": 41,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "®",
+              "label": "®",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "54409ee9f6ff763ab98672825179530d",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAQAAAAnCAYAAAAoyenmAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAHtJREFUKJHtzj0KwlAUROEPeXiLZ6k7CQhaaOXaXI77yAasxVLSCMLFH2ySRghYWjjNwIEzTPGRMgYmfb8KRMSy1vrouq4tkJnrzLyjHZTAdNiY44KKWrDDIiJmmbktWEXEE9eI2BTsM7PBEbeCM5p+/DT69A9+Exy+V96aSR3uYvDA7wAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 3,
+                "height": 29,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "¯",
+              "label": "¯",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "54409ee9f6ff763ab98672825179530d",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAQAAAAnCAYAAAAoyenmAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAHtJREFUKJHtzj0KwlAUROEPeXiLZ6k7CQhaaOXaXI77yAasxVLSCMLFH2ySRghYWjjNwIEzTPGRMgYmfb8KRMSy1vrouq4tkJnrzLyjHZTAdNiY44KKWrDDIiJmmbktWEXEE9eI2BTsM7PBEbeCM5p+/DT69A9+Exy+V96aSR3uYvDA7wAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 3,
+                "height": 29,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "value": "°",
+              "label": "°",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "bd0cf40781d6b170fa5646b0a8910218",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAAPCAYAAADQ4S5JAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAOxJREFUKJGV0rFKQ0EQheG/uDhXLAKLzYL2NjZCQEvBQittfAAbXy4Qu4gotgrByjyAEHG6QUExpzDYXMMlyY3Jga1mP5izbMGKKVa4uwFsLQXM7EjSGlAuBDnnXXffkXQLvANnTWATOHT3Z6BTH0yDAjgxs09JHeZkAszsQFIGepJGTWsWQAlcSroCHqbmF2b2WnWYgFHO+d7d94EvIGqgK6k1s5K7D4BB9XwlcA38AB/VmV9a0h2wDpymlN4i4rGxdC3fQDcitoFzoA+8LAJ/GQLDlFI7IvaAm/8AABHRB56AY2C87OcbAz2AX2OQWVKE2zWoAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 9,
+                "height": 11,
+                "angle": 0,
+                "xoffset": 2.551176,
+                "yoffset": 1.4031468
+              },
+              "value": "±",
+              "label": "±",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "type": "esriPMS",
+                "url": "a612fc73ab6eaef36f462730f899f279",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAYAAAALCAYAAABcUvyWAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAJVJREFUGJVtzTFKQ1EQBdBTPJzUD1yDC8gubFOkjJLsICAEgp1g6RrcRrIA+7RBywcBX2M1VWzy9SPeariH4Ra/qSg4uRw/EBFLTDJzPYZjZm5wh9sxDNnh/j+YRcTbADeY4xofmbkvtdZp732FB3wNb6X3vsB2XEKJiMzMq79Dpdb62lp7xhqfOENprR3whEe84B2+ATPsK3DcOhFWAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 4,
+                "height": 8,
+                "angle": 0,
+                "xoffset": 1.700784,
+                "yoffset": 0
+              },
+              "value": "²",
+              "label": "²",
+              "description": ""
+            }
+          ],
+          "fieldDelimiter": ",",
+          "rotationType": "arithmetic",
+          "rotationExpression": "[Acad_angle]"
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 794949.550255932,
+        "ymin": 5576891.33705288,
+        "xmax": 818213.548097997,
+        "ymax": 5587460.12339356,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "ACAD_TEXT",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID",
+          "domain": null
+        },
+        {
+          "name": "GISLINK",
+          "type": "esriFieldTypeDouble",
+          "alias": "GISLINK",
+          "domain": null
+        },
+        {
+          "name": "ACAD_TEXT",
+          "type": "esriFieldTypeString",
+          "alias": "ACAD_TEXT",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 1,
+      "name": "Testi acque",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 6000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "size": 4,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 1
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": [
+          {
+            "labelPlacement": "esriServerPointLabelPlacementCenterCenter",
+            "where": null,
+            "labelExpression": "[ACAD_TEXT]",
+            "useCodedValues": true,
+            "symbol": {
+              "type": "esriTS",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "backgroundColor": null,
+              "borderLineColor": null,
+              "borderLineSize": null,
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "center",
+              "rightToLeft": false,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "kerning": true,
+              "haloColor": null,
+              "haloSize": null,
+              "font": {
+                "family": "Arial",
+                "size": 11,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              }
+            },
+            "minScale": 0,
+            "maxScale": 0
+          }
+        ]
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 798962.127397528,
+        "ymin": 5578053.56347965,
+        "xmax": 817444.258503526,
+        "ymax": 5587113.35570073,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "ACAD_TEXT",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID",
+          "domain": null
+        },
+        {
+          "name": "GISLINK",
+          "type": "esriFieldTypeDouble",
+          "alias": "GISLINK",
+          "domain": null
+        },
+        {
+          "name": "ACAD_TEXT",
+          "type": "esriFieldTypeString",
+          "alias": "ACAD_TEXT",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": true,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 2,
+      "name": "Testi confine",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 9000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "size": 4,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 1
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": [
+          {
+            "labelPlacement": "esriServerPointLabelPlacementCenterCenter",
+            "where": null,
+            "labelExpression": "[ACAD_TEXT]",
+            "useCodedValues": true,
+            "symbol": {
+              "type": "esriTS",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "backgroundColor": null,
+              "borderLineColor": null,
+              "borderLineSize": null,
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "center",
+              "rightToLeft": false,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "kerning": true,
+              "haloColor": null,
+              "haloSize": null,
+              "font": {
+                "family": "Arial",
+                "size": 11,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              }
+            },
+            "minScale": 0,
+            "maxScale": 0
+          }
+        ]
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 795592.450919586,
+        "ymin": 5577420.66125557,
+        "xmax": 818264.946245768,
+        "ymax": 5587464.65800033,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "ACAD_TEXT",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID",
+          "domain": null
+        },
+        {
+          "name": "GISLINK",
+          "type": "esriFieldTypeDouble",
+          "alias": "GISLINK",
+          "domain": null
+        },
+        {
+          "name": "ACAD_TEXT",
+          "type": "esriFieldTypeString",
+          "alias": "ACAD_TEXT",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": true,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 3,
+      "name": "Testi particelle",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 3000,
+      "maxScale": 0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "size": 4,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 1
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": [
+          {
+            "labelPlacement": "esriServerPointLabelPlacementCenterCenter",
+            "where": null,
+            "labelExpression": "[ACAD_TEXT]",
+            "useCodedValues": true,
+            "symbol": {
+              "type": "esriTS",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "backgroundColor": null,
+              "borderLineColor": null,
+              "borderLineSize": null,
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "center",
+              "rightToLeft": false,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "kerning": true,
+              "haloColor": null,
+              "haloSize": null,
+              "font": {
+                "family": "Arial",
+                "size": 6,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              }
+            },
+            "minScale": 0,
+            "maxScale": 0
+          }
+        ]
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 796804.266059381,
+        "ymin": 5578306.25806422,
+        "xmax": 818169.612743411,
+        "ymax": 5587456.44881216,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "ACAD_TEXT",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID",
+          "domain": null
+        },
+        {
+          "name": "GISLINK",
+          "type": "esriFieldTypeDouble",
+          "alias": "GISLINK",
+          "domain": null
+        },
+        {
+          "name": "ACAD_TEXT",
+          "type": "esriFieldTypeString",
+          "alias": "ACAD_TEXT",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": true,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 4,
+      "name": "Testi strade",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 6000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "size": 4,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 1
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": [
+          {
+            "labelPlacement": "esriServerPointLabelPlacementCenterCenter",
+            "where": null,
+            "labelExpression": "[ACAD_TEXT]",
+            "useCodedValues": true,
+            "symbol": {
+              "type": "esriTS",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "backgroundColor": null,
+              "borderLineColor": null,
+              "borderLineSize": null,
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "center",
+              "rightToLeft": false,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "kerning": true,
+              "haloColor": null,
+              "haloSize": null,
+              "font": {
+                "family": "Arial",
+                "size": 11,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              }
+            },
+            "minScale": 0,
+            "maxScale": 0
+          }
+        ]
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 803608.097576013,
+        "ymin": 5579158.22448137,
+        "xmax": 817864.561086559,
+        "ymax": 5587093.04332874,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "ACAD_TEXT",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID",
+          "domain": null
+        },
+        {
+          "name": "GISLINK",
+          "type": "esriFieldTypeDouble",
+          "alias": "GISLINK",
+          "domain": null
+        },
+        {
+          "name": "ACAD_TEXT",
+          "type": "esriFieldTypeString",
+          "alias": "ACAD_TEXT",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": true,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 5,
+      "name": "Riporti particelle",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolyline",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 3000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "width": 0.4
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 796804.266059381,
+        "ymin": 5578306.25806422,
+        "xmax": 818171.275624192,
+        "ymax": 5587456.48273931,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "Acad_Text",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "GisLink",
+          "type": "esriFieldTypeDouble",
+          "alias": "GisLink",
+          "domain": null
+        },
+        {
+          "name": "Acad_Text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_Text",
+          "length": 16,
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "hasZ": true,
+      "hasM": true,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 6,
+      "name": "Frazionamenti non catastali",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolyline",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 25000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "width": 0.4
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 809510.83972065,
+        "ymin": 5580501.04737137,
+        "xmax": 814678.486728354,
+        "ymax": 5586579.72758021,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Acad_Text",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "GisLink",
+          "type": "esriFieldTypeDouble",
+          "alias": "GisLink",
+          "domain": null
+        },
+        {
+          "name": "Acad_Text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_Text",
+          "length": 16,
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "hasZ": true,
+      "hasM": true,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 7,
+      "name": "Linee non catastali",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolyline",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 25000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "width": 0.4
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 804079.527684576,
+        "ymin": 5578587.48349935,
+        "xmax": 817108.851241233,
+        "ymax": 5586687.75753262,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Acad_Text",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "GisLink",
+          "type": "esriFieldTypeDouble",
+          "alias": "GisLink",
+          "domain": null
+        },
+        {
+          "name": "Acad_Text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_Text",
+          "length": 16,
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "hasZ": true,
+      "hasM": true,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 8,
+      "name": "ed_prg",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 10000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 1.2
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 803551.628717402,
+        "ymin": 5580065.1149508,
+        "xmax": 818115.982776292,
+        "ymax": 5586739.87108726,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Acad_text",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id",
+          "domain": null
+        },
+        {
+          "name": "Acad_text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_text",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 9,
+      "name": "ed_tm",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 10000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 1.2
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 809698.570985538,
+        "ymin": 5583801.43646268,
+        "xmax": 814387.699239756,
+        "ymax": 5585853.8082762,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Acad_text",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id",
+          "domain": null
+        },
+        {
+          "name": "Acad_text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_text",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 10,
+      "name": "Tettoia",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 10000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 1.2
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 806067.242991485,
+        "ymin": 5583679.09076652,
+        "xmax": 806081.498568055,
+        "ymax": 5583694.46998537,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "Acad_text",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id",
+          "domain": null
+        },
+        {
+          "name": "Acad_text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_text",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 11,
+      "name": "Varie",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolyline",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 20000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSDash",
+            "color": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "width": 0.01
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 795622.031550871,
+        "ymin": 5577296.15112253,
+        "xmax": 818185.69267138,
+        "ymax": 5587485.59539986,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "Acad_Text",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "GisLink",
+          "type": "esriFieldTypeDouble",
+          "alias": "GisLink",
+          "domain": null
+        },
+        {
+          "name": "Acad_Text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_Text",
+          "length": 16,
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "hasZ": true,
+      "hasM": true,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 12,
+      "name": "Edifici catastali",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 40000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 1.5
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 796890.817513056,
+        "ymin": 5578344.01549668,
+        "xmax": 818162.958221525,
+        "ymax": 5587267.57690252,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "Acad_text",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id",
+          "domain": null
+        },
+        {
+          "name": "Acad_text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_text",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "DataIn",
+          "type": "esriFieldTypeString",
+          "alias": "DataIn",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "DataFi",
+          "type": "esriFieldTypeString",
+          "alias": "DataFi",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Sezione",
+          "type": "esriFieldTypeString",
+          "alias": "Sezione",
+          "length": 10,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 13,
+      "name": "Acque",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 40000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 50,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 798694.425836734,
+        "ymin": 5578060.93168194,
+        "xmax": 818186.951586162,
+        "ymax": 5587324.71526871,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "Acad_text",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id",
+          "domain": null
+        },
+        {
+          "name": "Acad_text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_text",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "DataIn",
+          "type": "esriFieldTypeString",
+          "alias": "DataIn",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "DataFi",
+          "type": "esriFieldTypeString",
+          "alias": "DataFi",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Sezione",
+          "type": "esriFieldTypeString",
+          "alias": "Sezione",
+          "length": 10,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 14,
+      "name": "Strade",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 40000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 803463.509218352,
+        "ymin": 5579147.79881023,
+        "xmax": 818151.50369362,
+        "ymax": 5587310.43342593,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "Acad_text",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id",
+          "domain": null
+        },
+        {
+          "name": "Acad_text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_text",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "DataIn",
+          "type": "esriFieldTypeString",
+          "alias": "DataIn",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "DataFi",
+          "type": "esriFieldTypeString",
+          "alias": "DataFi",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Sezione",
+          "type": "esriFieldTypeString",
+          "alias": "Sezione",
+          "length": 10,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 15,
+      "name": "Particelle catastali",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 40000,
+      "maxScale": 0,
+      "referenceScale": 2000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 795726.577729,
+        "ymin": 5577351.96600968,
+        "xmax": 818204.703546282,
+        "ymax": 5587460.1254973,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "Acad_text",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id",
+          "domain": null
+        },
+        {
+          "name": "Acad_text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_text",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "Irr",
+          "type": "esriFieldTypeString",
+          "alias": "Irr",
+          "length": 1,
+          "domain": null
+        },
+        {
+          "name": "ConStr",
+          "type": "esriFieldTypeString",
+          "alias": "ConStr",
+          "length": 1,
+          "domain": null
+        },
+        {
+          "name": "DataIn",
+          "type": "esriFieldTypeString",
+          "alias": "DataIn",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "DataFi",
+          "type": "esriFieldTypeString",
+          "alias": "DataFi",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "Sezione",
+          "type": "esriFieldTypeString",
+          "alias": "Sezione",
+          "length": 10,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": true,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    },
+    {
+      "currentVersion": 10.81,
+      "id": 16,
+      "name": "Confini catastali",
+      "type": "Feature Layer",
+      "description": "",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 32632,
+        "latestWkid": 32632
+      },
+      "copyrightText": "",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 25000,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "width": 1.5
+            }
+          },
+          "label": "",
+          "description": ""
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 795726.577729,
+        "ymin": 5577351.96600968,
+        "xmax": 818204.703546282,
+        "ymax": 5587460.1254973,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "Acad_text",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id",
+          "domain": null
+        },
+        {
+          "name": "Acad_text",
+          "type": "esriFieldTypeString",
+          "alias": "Acad_text",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "Acad_angle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Acad_angle",
+          "domain": null
+        },
+        {
+          "name": "Gislink",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gislink",
+          "domain": null
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area",
+          "domain": null
+        },
+        {
+          "name": "Perimeter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Perimeter",
+          "domain": null
+        },
+        {
+          "name": "Foglio",
+          "type": "esriFieldTypeInteger",
+          "alias": "Foglio",
+          "domain": null
+        },
+        {
+          "name": "Sezione",
+          "type": "esriFieldTypeString",
+          "alias": "Sezione",
+          "length": 10,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "Shape",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": true,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 1000,
+      "supportsStatistics": false,
+      "supportsAdvancedQueries": false,
+      "supportedQueryFormats": "JSON, geoJSON",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": false,
+        "supportsHavingClause": false,
+        "supportsCountDistinct": false,
+        "supportsOrderBy": false,
+        "supportsDistinct": false,
+        "supportsPagination": false,
+        "supportsTrueCurve": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": false
+      },
+      "supportsDatumTransformation": true,
+      "supportsCoordinatesQuantization": true
+    }
+  ],
+  "tables": []
+}

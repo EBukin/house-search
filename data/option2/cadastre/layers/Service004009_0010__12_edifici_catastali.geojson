@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Service004009_0010__12_edifici_catastali",
+"xy_coordinate_resolution": 1e-08,
+"features": [
+{ "type": "Feature", "properties": { "FID": 2755, "Id": 0, "Acad_text": "311-1", "Acad_angle": 0, "Gislink": 2756, "Area": 110, "Perimeter": 41, "Foglio": 20, "DataIn": "20100107", "DataFi": " ", "Sezione": "-" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 7.2944882, 44.76015665 ], [ 7.29442851, 44.7602281 ], [ 7.2943735, 44.76023131 ], [ 7.29430046, 44.76020513 ], [ 7.29436497, 44.7601151 ], [ 7.2944882, 44.76015665 ] ] ] } }
+]
+}

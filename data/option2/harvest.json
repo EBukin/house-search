@@ -1,0 +1,826 @@
+{
+  "site": {
+    "id": "option2",
+    "label": "Option 2",
+    "lat": 44.760126,
+    "lon": 7.294412,
+    "buffer_m": 100,
+    "cadastre_portal": "https://geoportale.sportellounicodigitale.it/GisMaster/Default.aspx?IdCliente=004009&IdSer=1"
+  },
+  "harvested_at": "2026-09-25T12:51:25-0400",
+  "arcgis_rest_root": "https://gis03.sportellounicodigitale.it/arcgis/rest/services",
+  "services": ["004009/Service004009_0010", "004009/Service004009_0011", "004009/Service004009_0012", "004009/Service004009_0013", "004009/Service004009_0014", "004009/Service004009_0015"],
+  "parcel_layer": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0010/MapServer/15",
+  "buffer_query": {
+    "geometry": "{\"x\":7.294412,\"y\":44.760126,\"spatialReference\":{\"wkid\":4326}}",
+    "geometryType": "esriGeometryPoint",
+    "inSR": 4326,
+    "spatialRel": "esriSpatialRelIntersects",
+    "distance": 100,
+    "units": "esriSRUnit_Meter"
+  },
+  "layers": [
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 0,
+      "name": "Simboli catastali",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 48,
+      "file": "data/option2/cadastre/layers/Service004009_0010__00_simboli_catastali.geojson",
+      "clipped": true,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0010/MapServer/0"
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 1,
+      "name": "Testi acque",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 2,
+      "name": "Testi confine",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 3,
+      "name": "Testi particelle",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 17,
+      "file": "data/option2/cadastre/layers/Service004009_0010__03_testi_particelle.geojson",
+      "clipped": true,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0010/MapServer/3"
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 4,
+      "name": "Testi strade",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 5,
+      "name": "Riporti particelle",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 1,
+      "file": "data/option2/cadastre/layers/Service004009_0010__05_riporti_particelle.geojson",
+      "clipped": true,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0010/MapServer/5"
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 6,
+      "name": "Frazionamenti non catastali",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 7,
+      "name": "Linee non catastali",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 8,
+      "name": "ed_prg",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 9,
+      "name": "ed_tm",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 10,
+      "name": "Tettoia",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 11,
+      "name": "Varie",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 12,
+      "name": "Edifici catastali",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 1,
+      "file": "data/option2/cadastre/layers/Service004009_0010__12_edifici_catastali.geojson",
+      "clipped": true,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0010/MapServer/12"
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 13,
+      "name": "Acque",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 14,
+      "name": "Strade",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 15,
+      "name": "Particelle catastali",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 27,
+      "file": "data/option2/cadastre/parcels.geojson",
+      "clipped": false,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0010/MapServer/15"
+    },
+    {
+      "service": "004009/Service004009_0010",
+      "layer_id": 16,
+      "name": "Confini catastali",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 2,
+      "file": "data/option2/cadastre/layers/Service004009_0010__16_confini_catastali.geojson",
+      "clipped": true,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0010/MapServer/16"
+    },
+    {
+      "service": "004009/Service004009_0011",
+      "layer_id": 0,
+      "name": "Base PRG",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 53,
+      "file": "data/option2/cadastre/layers/Service004009_0011__00_base_prg.geojson",
+      "clipped": true,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0011/MapServer/0"
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 0,
+      "name": "2000 testi",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 1,
+      "name": "Testi",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 2,
+      "name": "Simboli sorgenti",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 3,
+      "name": "Testi quote",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 4,
+      "name": "Testi zona P",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 5,
+      "name": "Piste da sci",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 6,
+      "name": "Linee",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 7,
+      "name": "Facciate",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 8,
+      "name": "Macroaree",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 9,
+      "name": "Simboli",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 10,
+      "name": "Linee quote",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 11,
+      "name": "Zona P",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 12,
+      "name": "Perimetrazione centro abitato",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 13,
+      "name": "Vincolo Cimiteriale",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 14,
+      "name": "Sorgenti",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 15,
+      "name": "Comprensorio estrattivo",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 16,
+      "name": "Salvaguardia ambientale",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 17,
+      "name": "Aree di esclusivo interesse turistico",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 18,
+      "name": "Edifici vincolati",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 19,
+      "name": "Fasce Impianti Sci",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 20,
+      "name": "Destinazioni urbanistiche",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 2,
+      "file": "data/option2/cadastre/layers/Service004009_0012__20_destinazioni_urbanistiche.geojson",
+      "clipped": true,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0012/MapServer/20"
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 21,
+      "name": "Fasce di rispetto",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0012",
+      "layer_id": 22,
+      "name": "Vincolo idrogeologico",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 1,
+      "file": "data/option2/cadastre/layers/Service004009_0012__22_vincolo_idrogeologico.geojson",
+      "clipped": true,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0012/MapServer/22"
+    },
+    {
+      "service": "004009/Service004009_0013",
+      "layer_id": 0,
+      "name": "Lettera h) Le zone gravate da usi civici",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0013",
+      "layer_id": 1,
+      "name": "Lettera c) I fiumi, i torrenti,i corsi d'acqua",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0013",
+      "layer_id": 2,
+      "name": "Lettera c) Fasce di 150m",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0013",
+      "layer_id": 3,
+      "name": "Lettera d) Le montagne per la parte eccedente",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0013",
+      "layer_id": 4,
+      "name": "Lettera e) I ghiacciai",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0013",
+      "layer_id": 5,
+      "name": "Lettera g) i territori coperti da foreste e boschi",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 2,
+      "file": "data/option2/cadastre/layers/Service004009_0013__05_lettera_g_i_territori_coperti_da_foreste_e_boschi.geojson",
+      "clipped": true,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0013/MapServer/5"
+    },
+    {
+      "service": "004009/Service004009_0014",
+      "layer_id": 0,
+      "name": "Ambiti di paesaggio",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 1,
+      "file": "data/option2/cadastre/layers/Service004009_0014__00_ambiti_di_paesaggio.geojson",
+      "clipped": true,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0014/MapServer/0"
+    },
+    {
+      "service": "004009/Service004009_0014",
+      "layer_id": 1,
+      "name": "Unità di paesaggio",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 2,
+      "file": "data/option2/cadastre/layers/Service004009_0014__01_unita_di_paesaggio.geojson",
+      "clipped": true,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0014/MapServer/1"
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 0,
+      "name": "Componenti naturalistico ambientali",
+      "type": "Group Layer",
+      "geometry_type": null,
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 1,
+      "name": "Vette",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 2,
+      "name": "Sistema di crinali montani principali e secondari",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 3,
+      "name": "Crinali montani - fascia 50m",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 4,
+      "name": "Ghiacciai, rocce e macereti",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 5,
+      "name": "Laghi",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 6,
+      "name": "Aree di montagna",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 7,
+      "name": "Aree di elevato interesse agronomico",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 8,
+      "name": "CoperturaBoscata",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 1,
+      "file": "data/option2/cadastre/layers/Service004009_0015__08_coperturaboscata.geojson",
+      "clipped": true,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0015/MapServer/8"
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 9,
+      "name": "Praterie rupicole",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 10,
+      "name": "Praterie - prato - pascoli - cespuglieti",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 11,
+      "name": "Aree non montane",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 12,
+      "name": "Componenti storico-culturali",
+      "type": "Group Layer",
+      "geometry_type": null,
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 13,
+      "name": "Viabilità storica",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 14,
+      "name": "Struttura insediativa storica",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 15,
+      "name": "Sistemi di testimonianze sul territorio rurale",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 16,
+      "name": "Nuclei alpini",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 17,
+      "name": "Poli delle relogiosita",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 18,
+      "name": "Componenti percettivo-identitarie",
+      "type": "Group Layer",
+      "geometry_type": null,
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 19,
+      "name": "Percorsi panoramici",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 20,
+      "name": "Elementi caratterizzanti di rilevanza paesistica",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPoint",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 21,
+      "name": "SC1 - Relazioni visive tra insediamenti e contesto",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 22,
+      "name": "SV1 - Aree rurali di specifico interesse paesaggistico",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 23,
+      "name": "SV3 - Aree rurali di specifico interesse paesaggistico",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 24,
+      "name": "Componenti morfologico-insediative",
+      "type": "Group Layer",
+      "geometry_type": null,
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 25,
+      "name": "Varchi tra aree edificate",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolyline",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 26,
+      "name": "Alpeggi e insediamenti rurali di alta quota - mi15",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 0,
+      "file": null,
+      "clipped": false
+    },
+    {
+      "service": "004009/Service004009_0015",
+      "layer_id": 27,
+      "name": "Morfologie insediative",
+      "type": "Feature Layer",
+      "geometry_type": "esriGeometryPolygon",
+      "n_features": 2,
+      "file": "data/option2/cadastre/layers/Service004009_0015__27_morfologie_insediative.geojson",
+      "clipped": true,
+      "url": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0015/MapServer/27"
+    }
+  ],
+  "dtm": {
+    "source": "Regione Piemonte - RIPRESA AEREA ICE 2009-2011 - DTM 5 (LiDAR), CC BY 4.0",
+    "wcs": "https://geomap.reteunitaria.piemonte.it/ws/taims/rp-01/taimsdtmwcs/wcs_ice_2009_2011_dtm",
+    "query": {
+      "SERVICE": "WCS",
+      "VERSION": "1.0.0",
+      "REQUEST": "GetCoverage",
+      "COVERAGE": "DTM",
+      "CRS": "EPSG:32632",
+      "BBOX": "364748,4957546,365243,4957936",
+      "RESX": 5,
+      "RESY": 5,
+      "FORMAT": "GEOTIFF_16"
+    },
+    "metadata": "https://www.geoportale.piemonte.it/geonetwork/srv/api/records/r_piemon:224de2ac-023e-441c-9ae0-ea493b217a8e/formatters/xml",
+    "file": "data/option2/dem/dtm5.asc",
+    "crs": "EPSG:32632"
+  }
+}

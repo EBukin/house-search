@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Service004009_0010__05_riporti_particelle",
+"xy_coordinate_resolution": 1e-08,
+"features": [
+{ "type": "Feature", "properties": { "FID": 1175, "GisLink": 0, "Acad_Text": " ", "Perimeter": 17, "Foglio": 0 }, "geometry": { "type": "LineString", "coordinates": [ [ 7.29441285, 44.76017735 ], [ 7.29421634, 44.76024208 ] ] } }
+]
+}
