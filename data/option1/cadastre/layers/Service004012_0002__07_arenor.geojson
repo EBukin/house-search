@@ -3,6 +3,6 @@
 "name": "Service004012_0002__07_arenor",
 "xy_coordinate_resolution": 1e-08,
 "features": [
-{ "type": "Feature", "properties": { "FID": 6, "Gislink": 7, "Area": 25094025, "Perimeter": 47773, "Acad_Text": "AAM", "Sigla": "AAM", "Acad_angle": 0, "Foglio": 0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 7.27677003, 44.71866185 ], [ 7.27688529, 44.71477938 ], [ 7.28128989, 44.71484577 ], [ 7.28117493, 44.71872825 ], [ 7.27677003, 44.71866185 ] ] ] } }
+{ "type": "Feature", "properties": { "FID": 6, "Gislink": 7, "Area": 25094025, "Perimeter": 47773, "Acad_Text": "AAM", "Sigla": "AAM", "Acad_angle": 0, "Foglio": 0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 7.2781939, 44.71770626 ], [ 7.2782827, 44.7147125 ], [ 7.28308955, 44.71478489 ], [ 7.283001, 44.71777865 ], [ 7.2781939, 44.71770626 ] ] ] } }
 ]
 }

@@ -3,18 +3,17 @@
 "name": "Service004012_0001__03_testi_particelle",
 "xy_coordinate_resolution": 1e-08,
 "features": [
-{ "type": "Feature", "properties": { "FID": 22931, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "238", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.2781763, 44.71662687 ] } },
-{ "type": "Feature", "properties": { "FID": 22955, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "159", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.27865059, 44.71642772 ] } },
-{ "type": "Feature", "properties": { "FID": 23004, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "157", "Foglio": 0, "Acad_angle": 34 }, "geometry": { "type": "Point", "coordinates": [ 7.27781189, 44.71621534 ] } },
-{ "type": "Feature", "properties": { "FID": 23050, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "160", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.27844508, 44.71612604 ] } },
-{ "type": "Feature", "properties": { "FID": 23051, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "271", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.27779962, 44.71589746 ] } },
-{ "type": "Feature", "properties": { "FID": 23056, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "163", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.27896917, 44.71556286 ] } },
-{ "type": "Feature", "properties": { "FID": 23161, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "158", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.27815214, 44.71628521 ] } },
+{ "type": "Feature", "properties": { "FID": 24134, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "833", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.28176785, 44.71549355 ] } },
+{ "type": "Feature", "properties": { "FID": 24140, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "685", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.280904, 44.71516296 ] } },
+{ "type": "Feature", "properties": { "FID": 24141, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "553", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.28180375, 44.71600453 ] } },
+{ "type": "Feature", "properties": { "FID": 24142, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "225", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.28112993, 44.71559275 ] } },
+{ "type": "Feature", "properties": { "FID": 24143, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "385", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.28020045, 44.71531891 ] } },
 { "type": "Feature", "properties": { "FID": 24144, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "395", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.27998381, 44.71565219 ] } },
-{ "type": "Feature", "properties": { "FID": 24213, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "226", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.27921502, 44.71602322 ] } },
+{ "type": "Feature", "properties": { "FID": 24145, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "26", "Foglio": 0, "Acad_angle": 24 }, "geometry": { "type": "Point", "coordinates": [ 7.28099796, 44.7160887 ] } },
+{ "type": "Feature", "properties": { "FID": 24211, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "28", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.28105924, 44.71649073 ] } },
+{ "type": "Feature", "properties": { "FID": 24212, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "549", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.28108391, 44.71627324 ] } },
 { "type": "Feature", "properties": { "FID": 24214, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "688", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.27982987, 44.71617802 ] } },
-{ "type": "Feature", "properties": { "FID": 24217, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "24", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.27958492, 44.71651803 ] } },
-{ "type": "Feature", "properties": { "FID": 24218, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "23", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.27919843, 44.71645632 ] } },
-{ "type": "Feature", "properties": { "FID": 24219, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "124", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.27894083, 44.7163443 ] } }
+{ "type": "Feature", "properties": { "FID": 24343, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "224", "Foglio": 0, "Acad_angle": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.28142144, 44.71599476 ] } },
+{ "type": "Feature", "properties": { "FID": 24344, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "396", "Foglio": 0, "Acad_angle": 42 }, "geometry": { "type": "Point", "coordinates": [ 7.28055517, 44.71578235 ] } }
 ]
 }
