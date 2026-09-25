@@ -1,0 +1,65 @@
+---
+title: "House search: all houses"
+subtitle: "Cadastral parcels, terrain and planning constraints for each candidate house"
+toc: false
+---
+
+```{r}
+source("_common.R")
+library(leaflet)
+data <- lapply(names(sites), site_data)
+names(data) <- names(sites)
+```
+
+Each house page has an interactive map of the cadastral parcels within the search buffer, with terrain statistics and planning information for each parcel. Values below are for the parcel that contains the house's coordinates.
+
+```{r}
+#| column: page
+pts <- bind_rows(lapply(data, \(d) tibble(
+  id = d$site$id, label = d$site$label, lat = d$site$lat, lon = d$site$lon,
+  comune = d$harvest$comune %||% ""
+)))
+leaflet(pts, height = 380) |>
+  fitBounds(min(pts$lon) - 0.02, min(pts$lat) - 0.01, max(pts$lon) + 0.02, max(pts$lat) + 0.01) |>
+  addProviderTiles(providers$Esri.WorldImagery, group = "Imagery") |>
+  addProviderTiles(providers$OpenTopoMap, group = "Topographic") |>
+  addLayersControl(baseGroups = c("Imagery", "Topographic")) |>
+  addCircleMarkers(~lon, ~lat, radius = 8, color = "#ffffff", weight = 2,
+                   fillColor = "#ef4444", fillOpacity = 1,
+                   label = ~sprintf("%s — %s", label, comune),
+                   popup = ~sprintf("<b>%s</b><br>%s<br><a href='houses/%s.html'>Open house page</a>",
+                                    label, comune, id),
+                   labelOptions = labelOptions(noHide = TRUE, direction = "right"))
+```
+
+```{r}
+#| column: page
+rows <- bind_rows(lapply(data, \(d) {
+  t <- d$target
+  tibble(
+    House = sprintf("[%s](houses/%s.qmd)", gsub(" ", " ", d$site$label), d$site$id),
+    Comune = d$harvest$comune %||% "",
+    Parcel = sprintf("Sheet %s, parcel %s", t$Foglio, t$particella),
+    `Area (m²)` = num(t$area_m2),
+    Buildings = ifelse(is.na(t$buildings_n) | t$buildings_n == 0, "none",
+                       sprintf("%s (%s m²)", t$buildings_n, num(t$buildings_m2))),
+    `Elevation (m)` = sprintf("%s–%s", num(t$elev_min), num(t$elev_max)),
+    `Mean slope` = sprintf("%s° (%s)", num(t$slope_mean, 1), slope_word(t$slope_mean)),
+    Aspect = ifelse(is.na(t$aspect_dir), "flat", t$aspect_dir),
+    `South-facing` = paste0(num(t$south_facing_pct), "%"),
+    `Winter noon sun` = sprintf("%s× flat", num(t$sun_winter_idx, 2)),
+    Zoning = overlay_text(d, t, "planning"),
+    Constraints = overlay_text(d, t, c("hazard", "landscape")),
+    `Parcels ≤ 100 m` = as.character(nrow(d$stats))
+  )
+}))
+knitr::kable(rows)
+```
+
+::: {.callout-note}
+## How to read this
+
+- **South-facing** is the share of the parcel whose slope faces between SE and SW.
+- **Winter noon sun** is the direct sunlight at solar noon on the winter solstice, relative to flat ground. Above 1 means the slope tilts towards the winter sun; 0 means the slope puts the parcel in its own shade.
+- **Zoning** and **constraints** show the dominant class of each planning layer on the parcel and the share of the parcel it covers. Codes are translated from Italian; see each house page for the full layer descriptions.
+:::

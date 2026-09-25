@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "Service004012_0001__04_testi_strade",
-"xy_coordinate_resolution": 1e-08,
-"features": [
-{ "type": "Feature", "properties": { "FID": 824, "ID": 0, "GISLINK": 0, "ACAD_TEXT": "Strada", "Acad_angle": -18, "Foglio": 0 }, "geometry": { "type": "Point", "coordinates": [ 7.28192073, 44.71634739 ] } }
-]
-}

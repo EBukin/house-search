@@ -7,7 +7,9 @@
     "buffer_m": 100,
     "cadastre_portal": "https://geoportale.sportellounicodigitale.it/GisMaster/Default.aspx?IdCliente=004009&IdSer=1"
   },
-  "harvested_at": "2026-09-25T12:51:25-0400",
+  "harvested_at": "2026-09-25T13:09:56-0400",
+  "comune": "Bagnolo Piemonte",
+  "istat_code": "004009",
   "arcgis_rest_root": "https://gis03.sportellounicodigitale.it/arcgis/rest/services",
   "services": ["004009/Service004009_0010", "004009/Service004009_0011", "004009/Service004009_0012", "004009/Service004009_0013", "004009/Service004009_0014", "004009/Service004009_0015"],
   "parcel_layer": "https://gis03.sportellounicodigitale.it/arcgis/rest/services/004009/Service004009_0010/MapServer/15",

@@ -2,8 +2,8 @@
   {
     "id": "option1",
     "label": "Option 1",
-    "lat": 44.71563,
-    "lon": 7.281737,
+    "lat": 44.716063,
+    "lon": 7.2789927,
     "buffer_m": 100,
     "cadastre_portal": "https://geoportale.sportellounicodigitale.it/GisMaster/Default.aspx?IdCliente=004012&IdSer=1"
   },

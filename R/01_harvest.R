@@ -58,6 +58,8 @@ portal_url <- site$cadastre_portal
 id_cliente <- sub(".*[?&]IdCliente=([^&]+).*", "\\1", portal_url)
 cli_progress_step("Reading portal page (IdCliente {id_cliente})")
 portal_html <- http_get(portal_url) |> resp_body_string()
+comune <- regmatches(portal_html, regexpr("Comune d[ie] [^<\"]+", portal_html))
+comune <- if (length(comune)) trimws(sub("^Comune d[ie] ", "", comune)) else NA_character_
 
 # Service definitions are emitted as `gisMasterServices[i].prop = value;`.
 svc_lines <- regmatches(
@@ -253,6 +255,8 @@ write_json_pretty(
   list(
     site = site,
     harvested_at = format(Sys.time(), "%Y-%m-%dT%H:%M:%S%z"),
+    comune = comune,
+    istat_code = id_cliente,
     arcgis_rest_root = rest_root,
     services = services,
     parcel_layer = parcel_layer,

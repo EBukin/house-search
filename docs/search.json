@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "House search: all houses",
+    "section": "",
+    "text": "Each house page has an interactive map of the cadastral parcels within the search buffer, with terrain statistics and planning information for each parcel. Values below are for the parcel that contains the house’s coordinates.\n\n\n\n\n\n\n\n\n\n\n\nHouse\nComune\nParcel\nArea (m²)\nBuildings\nElevation (m)\nMean slope\nAspect\nSouth-facing\nWinter noon sun\nZoning\nConstraints\nParcels ≤ 100 m\n\n\n\n\nOption 1\nBarge\nSheet 86, parcel 226\n3,047\nnone\n836–863\n16.9° (steep)\nE\n0%\n0.73× flat\nAAM - agricultural area, mountain (likely ‘aree agricole montane’) (100%)\nPAI class III undifferentiated (area 1) - high hazard; new building generally not allowed (100%); present (100%); Hydrogeological restriction (100%)\n24\n\n\nOption 2\nBagnolo Piemonte\nSheet 20, parcel 311\n845\n1 (114 m²)\n409–416\n9.9° (gentle)\nS\n72%\n1.35× flat\nE - agricultural zone (100%)\nPlain landscape area (Ambito Piana) (100%); Rural (55%); m.i. 10 - rural areas of plain or hill (PPR settlement class 10) (100%)\n27\n\n\n\n\n\n\n\n\n\n\n\nNoteHow to read this\n\n\n\n\nSouth-facing is the share of the parcel whose slope faces between SE and SW.\nWinter noon sun is the direct sunlight at solar noon on the winter solstice, relative to flat ground. Above 1 means the slope tilts towards the winter sun; 0 means the slope puts the parcel in its own shade.\nZoning and constraints show the dominant class of each planning layer on the parcel and the share of the parcel it covers. Codes are translated from Italian; see each house page for the full layer descriptions."
+  },
+  {
+    "objectID": "houses/option1.html",
+    "href": "houses/option1.html",
+    "title": "Option 1 — Barge",
+    "section": "",
+    "text": "Open the map full screen · Click a parcel for its statistics. Switch the background imagery (Esri, Google, Bing, OSM) and toggle layers in the top-right panel."
+  },
+  {
+    "objectID": "houses/option1.html#summary",
+    "href": "houses/option1.html#summary",
+    "title": "Option 1 — Barge",
+    "section": "Summary",
+    "text": "Summary\nThe house point (44.716063, 7.278993) is in Barge and falls on cadastral sheet 86, parcel 226, a 3,047 m² parcel (cadastral record: 2,904 m²). The ground lies between 836 and 863 m above sea level (mean 852 m). The mean slope is 16.9° (30%, steep), and the parcel faces E on average. 0% of its area faces SE–SW. No cadastral building lies on the parcel.\n\nCoordinates: 44.716063, 7.278993 (Google Maps)\nCadastre portal: Barge\nParcels within 100 m: 24"
+  },
+  {
+    "objectID": "houses/option1.html#terrain",
+    "href": "houses/option1.html#terrain",
+    "title": "Option 1 — Barge",
+    "section": "Terrain",
+    "text": "Terrain\n\n\n\n\n\n\n\n\n\nMeasure\nValue\n\n\n\n\nElevation (m)\nmin 836.1 · mean 852.4 · max 863.1\n\n\nSlope (°)\nmin 14.0 · mean 16.9 · max 30.1\n\n\nMean slope (%)\n30\n\n\nMean aspect\n72° (E)\n\n\nSouth-facing area (SE–SW)\n0%\n\n\nSouthness (−1 north … +1 south)\n-0.32\n\n\nNoon sun, winter solstice (× flat ground)\n0.73\n\n\nNoon sun, equinox (× flat ground)\n0.87\n\n\n\n\n\nThe statistics come from the Regione Piemonte 5 m LiDAR terrain model (2009–2011). Slope and aspect are computed on the 5 m grid and resampled to 1 m, so that small parcels are measured over their own footprint. The model shows bare ground and misses buildings, trees and any earthworks since 2011."
+  },
+  {
+    "objectID": "houses/option1.html#planning-and-constraints",
+    "href": "houses/option1.html#planning-and-constraints",
+    "title": "Option 1 — Barge",
+    "section": "Planning and constraints",
+    "text": "Planning and constraints\n\nZoning (land-use designations) (AreNor): AAM - agricultural area, mountain (likely ‘aree agricole montane’) (100%)\nLand-use zones of the town plan (PRG) (‘aree normative’). The zone code determines what may be built.\nGeological hazard classes (PAI 2008) (PAI2008): PAI class III undifferentiated (area 1) - high hazard; new building generally not allowed (100%)\nTown-plan map of geomorphological hazard and building suitability (PAI adaptation, 2008), following Piedmont Circ. 7/LAP: class I no constraints, class II moderate hazard (building allowed with technical measures), class III high hazard (new building generally not allowed).\nMountain zone (zona montana): present (100%)\nPart of the comune classified as mountain territory.\nHydrogeological restriction (Vincolo Idrogeologico): Hydrogeological restriction (100%)\nArea under ‘vincolo idrogeologico’ (R.D. 3267/1923, L.R. 45/1989): earthworks, tree felling and land-use changes need an authorisation.\n\n\n\n\n\n\n\nWarning\n\n\n\nThese layers come from the comune’s public GIS viewer and are for orientation only. Check the current town plan (PRG) and the certificato di destinazione urbanistica with the comune before relying on them."
+  },
+  {
+    "objectID": "houses/option1.html#cadastral-record",
+    "href": "houses/option1.html#cadastral-record",
+    "title": "Option 1 — Barge",
+    "section": "Cadastral record",
+    "text": "Cadastral record\n\n\n\n\n\nField\nOriginal field\nValue\n\n\n\n\nParcel ID\nParcel ID\nF86-226\n\n\nCadastral sheet (foglio), 0 = not set\nFoglio\n86\n\n\nLabel\nAcad_text\n226\n\n\nArea as recorded (m², 0 = not recorded)\nArea\n2904\n\n\nPerimeter as recorded (m)\nPerimeter\n252\n\n\nCadastral section\nSezione\n-\n\n\nValid from (YYYYMMDD)\nDataIn\n20080124\n\n\nValid to (YYYYMMDD, blank = current)\nDataFi\n(blank)\n\n\nIrr flag (source code, undocumented)\nIrr\n(blank)\n\n\nConStr flag (source code, undocumented)\nConStr\n(blank)\n\n\nFeature ID\nFID\n23645\n\n\nGIS link ID\nGislink\n23646"
+  },
+  {
+    "objectID": "houses/option1.html#surrounding-parcels",
+    "href": "houses/option1.html#surrounding-parcels",
+    "title": "Option 1 — Barge",
+    "section": "Surrounding parcels",
+    "text": "Surrounding parcels\nAll parcels touching the 100 m buffer around the point, nearest first.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParcel\nDistance (m)\nArea (m²)\nElev. mean (m)\nSlope mean (°)\nAspect\nSouth-facing\nWinter sun\nBuildings\n\n\n\n\nF86-226 ★\n0\n3,047\n852\n16.9\nE\n0%\n0.73\n\n\n\nF84-160\n12\n3,318\n868\n16.5\nNE\n0%\n0.66\n\n\n\nF84-163\n16\n5,206\n861\n19.7\nE\n0%\n0.88\n\n\n\nF86-124\n25\n1,364\n853\n15.8\nNE\n0%\n0.70\n\n\n\nF86-23\n33\n1,555\n847\n17.8\nNE\n0%\n0.60\n\n\n\nF86-395\n46\n5,677\n831\n21.2\nE\n0%\n0.97\n\n\n\nF84-159\n47\n30\n862\n16.3\nE\n0%\n0.76\n\n\n\nF84-271\n49\n4,352\n885\n13.8\nNE\n0%\n0.71\n\n\n\nF86-688\n50\n2,151\n829\n26.3\nE\n0%\n0.49\n\n\n\nF86-24\n51\n2,134\n835\n25.0\nE\n0%\n0.53\n\n\n\nF84-161\n53\n5,221\n887\n13.1\nE\n0%\n0.83\n\n\n\nF84-238\n56\n1,524\n863\n17.5\nNE\n0%\n0.36\n\n\n\nF84-352\n57\n4,676\n846\n20.5\nNE\n0%\n0.20\n\n\n\nF84-158\n66\n38\n875\n19.3\nE\n0%\n0.66\n1\n\n\nF84-100\n66\n1,749\n853\n18.2\nN\n0%\n0.20\n\n\n\nF84-102\n78\n1,670\n870\n18.2\nNE\n0%\n0.24\n\n\n\nF84-157\n83\n140\n880\n15.7\nNE\n0%\n0.39\n\n\n\nF84-99\n83\n6,383\n815\n24.0\nNE\n0%\n0.07\n\n\n\nF86-531\n83\n4,460\n803\n23.6\nNE\n0%\n0.12\n\n\n\nF86-159\n86\n4,190\n813\n29.3\nE\n0%\n0.54\n\n\n\nF84-146\n91\n1,150\n855\n22.3\nE\n3%\n1.11\n\n\n\nF86-29\n93\n1,026\n826\n23.1\nNE\n0%\n0.54\n\n\n\nF84-408\n93\n471\n878\n16.1\nE\n0%\n0.97\n\n\n\nF84-241\n100\n674\n880\n16.0\nNE\n0%\n0.37"
+  },
+  {
+    "objectID": "houses/option1.html#data-and-method",
+    "href": "houses/option1.html#data-and-method",
+    "title": "Option 1 — Barge",
+    "section": "Data and method",
+    "text": "Data and method\n\nCadastre: Barge GisMaster portal, ArcGIS REST service at https://gis03.sportellounicodigitale.it/arcgis/rest/services. Harvested 2026-09-25. Parcels are stored exactly as served. Other layers are cropped to the study area.\nTerrain: Regione Piemonte, Ripresa aerea ICE 2009–2011 – DTM 5 m (CC BY 4.0), from the regional WCS service.\nHarvested data and code: data/option1 and R/ in the repository."
+  },
+  {
+    "objectID": "houses/option2.html",
+    "href": "houses/option2.html",
+    "title": "Option 2 — Bagnolo Piemonte",
+    "section": "",
+    "text": "Open the map full screen · Click a parcel for its statistics. Switch the background imagery (Esri, Google, Bing, OSM) and toggle layers in the top-right panel."
+  },
+  {
+    "objectID": "houses/option2.html#summary",
+    "href": "houses/option2.html#summary",
+    "title": "Option 2 — Bagnolo Piemonte",
+    "section": "Summary",
+    "text": "Summary\nThe house point (44.760126, 7.294412) is in Bagnolo Piemonte and falls on cadastral sheet 20, parcel 311, a 845 m² parcel (cadastral record: 829 m²). The ground lies between 409 and 416 m above sea level (mean 412 m). The mean slope is 9.9° (18%, gentle), and the parcel faces S on average. 72% of its area faces SE–SW. The cadastral map shows 1 building(s) on the parcel (311-1), 114 m² in total.\n\nCoordinates: 44.760126, 7.294412 (Google Maps)\nCadastre portal: Bagnolo Piemonte\nParcels within 100 m: 27"
+  },
+  {
+    "objectID": "houses/option2.html#terrain",
+    "href": "houses/option2.html#terrain",
+    "title": "Option 2 — Bagnolo Piemonte",
+    "section": "Terrain",
+    "text": "Terrain\n\n\n\n\n\n\n\n\n\nMeasure\nValue\n\n\n\n\nElevation (m)\nmin 409.3 · mean 411.8 · max 416.3\n\n\nSlope (°)\nmin 4.5 · mean 9.9 · max 20.1\n\n\nMean slope (%)\n18\n\n\nMean aspect\n160° (S)\n\n\nSouth-facing area (SE–SW)\n72%\n\n\nSouthness (−1 north … +1 south)\n0.83\n\n\nNoon sun, winter solstice (× flat ground)\n1.35\n\n\nNoon sun, equinox (× flat ground)\n1.13\n\n\n\n\n\nThe statistics come from the Regione Piemonte 5 m LiDAR terrain model (2009–2011). Slope and aspect are computed on the 5 m grid and resampled to 1 m, so that small parcels are measured over their own footprint. The model shows bare ground and misses buildings, trees and any earthworks since 2011."
+  },
+  {
+    "objectID": "houses/option2.html#planning-and-constraints",
+    "href": "houses/option2.html#planning-and-constraints",
+    "title": "Option 2 — Bagnolo Piemonte",
+    "section": "Planning and constraints",
+    "text": "Planning and constraints\n\nZoning (land-use designations) (Destinazioni urbanistiche): E - agricultural zone (100%)\nLand-use zones of the town plan (PRG). The zone code determines what may be built.\nHydrogeological restriction (Vincolo idrogeologico): does not apply to this parcel\nArea under ‘vincolo idrogeologico’ (R.D. 3267/1923, L.R. 45/1989): earthworks, tree felling and land-use changes need an authorisation.\nForests and woodland (statutory landscape protection) (Lettera g) i territori coperti da foreste e boschi): does not apply to this parcel\nArt. 142(1)(g) D.Lgs. 42/2004: land covered by forest is a protected landscape asset. Works need a landscape authorisation.\nLandscape areas (PPR) (Ambiti di paesaggio): Plain landscape area (Ambito Piana) (100%)\nLandscape area (‘ambito’) of the Piedmont Regional Landscape Plan.\nLandscape units (PPR) (Unità di paesaggio): Rural (55%)\nLandscape unit of the Piedmont Regional Landscape Plan, with its character type.\nForest cover (PPR) (CoperturaBoscata): does not apply to this parcel\nForest cover mapped by the Regional Landscape Plan (Table P4).\nSettlement morphology (PPR) (Morfologie insediative): m.i. 10 - rural areas of plain or hill (PPR settlement class 10) (100%)\nSettlement pattern class of the Regional Landscape Plan (Table P4, art. 34-40 NdA); each class has its own building rules.\n\n\n\n\n\n\n\nWarning\n\n\n\nThese layers come from the comune’s public GIS viewer and are for orientation only. Check the current town plan (PRG) and the certificato di destinazione urbanistica with the comune before relying on them."
+  },
+  {
+    "objectID": "houses/option2.html#cadastral-record",
+    "href": "houses/option2.html#cadastral-record",
+    "title": "Option 2 — Bagnolo Piemonte",
+    "section": "Cadastral record",
+    "text": "Cadastral record\n\n\n\n\n\nField\nOriginal field\nValue\n\n\n\n\nParcel ID\nParcel ID\nF20-311\n\n\nCadastral sheet (foglio), 0 = not set\nFoglio\n20\n\n\nLabel\nAcad_text\n311\n\n\nArea as recorded (m², 0 = not recorded)\nArea\n829\n\n\nPerimeter as recorded (m)\nPerimeter\n120\n\n\nCadastral section\nSezione\n-\n\n\nValid from (YYYYMMDD)\nDataIn\n20100107\n\n\nValid to (YYYYMMDD, blank = current)\nDataFi\n(blank)\n\n\nIrr flag (source code, undocumented)\nIrr\n(blank)\n\n\nConStr flag (source code, undocumented)\nConStr\n(blank)\n\n\nFeature ID\nFID\n9767\n\n\nGIS link ID\nGislink\n9768"
+  },
+  {
+    "objectID": "houses/option2.html#surrounding-parcels",
+    "href": "houses/option2.html#surrounding-parcels",
+    "title": "Option 2 — Bagnolo Piemonte",
+    "section": "Surrounding parcels",
+    "text": "Surrounding parcels\nAll parcels touching the 100 m buffer around the point, nearest first.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParcel\nDistance (m)\nArea (m²)\nElev. mean (m)\nSlope mean (°)\nAspect\nSouth-facing\nWinter sun\nBuildings\n\n\n\n\nF20-311 ★\n0\n845\n412\n9.9\nS\n72%\n1.35\n1\n\n\nF20-312\n9\n4,629\n409\n13.8\nS\n84%\n1.48\n\n\n\nF20-476\n17\n1,945\n420\n13.2\nS\n88%\n1.48\n\n\n\nF20-473\n20\n2,721\n418\n17.1\nS\n100%\n1.65\n\n\n\nF30-225\n28\n2,111\n402\n6.7\nSE\n43%\n1.17\n\n\n\nF20-764\n28\n1,817\n410\n17.2\nE\n13%\n0.78\n\n\n\nF30-226\n29\n772\n404\n6.9\nSE\n86%\n1.25\n\n\n\nF20-763\n40\n2,165\n402\n10.8\nSE\n56%\n1.32\n\n\n\nF20-458\n41\n2,080\n419\n20.1\nSW\n74%\n1.60\n\n\n\nF30-413\n52\n1,534\n424\n25.3\nSE\n43%\n1.24\n\n\n\nF20-1069\n53\n9,717\n441\n15.6\nS\n76%\n1.43\n\n\n\nF30-267\n53\n416\n429\n26.1\nE\n17%\n0.70\n\n\n\nF20-300\n53\n2,349\n430\n20.5\nS\n100%\n1.77\n\n\n\nF30-222\n55\n788\n428\n28.3\nNE\n0%\n0.32\n\n\n\nF20-462\n56\n5,895\n398\n6.6\nSE\n12%\n1.08\n\n\n\nF30-398\n61\n70\n422\n20.9\nSE\n72%\n1.61\n\n\n\nF30-217\n61\n872\n417\n21.3\nSE\n68%\n1.60\n\n\n\nF30-223\n65\n1,380\n409\n17.0\nSE\n67%\n1.48\n\n\n\nF30-289\n66\n1,451\n400\n4.0\nSE\n71%\n1.14\n\n\n\nF20-310\n74\n916\n429\n35.1\nNE\n0%\n0.08\n\n\n\nF30-224\n74\n2,712\n402\n8.8\nSE\n75%\n1.28\n\n\n\nF20-459\n77\n7,245\n434\n20.7\nE\n5%\n0.84\n\n\n\nF20-475\n80\n1,318\n425\n18.2\nS\n100%\n1.68\n\n\n\nF20-456\n85\n2,032\n400\n19.4\nSE\n62%\n1.55\n\n\n\nF20-313\n85\n3,500\n396\n7.0\nE\n25%\n1.01\n\n\n\nF20-297\n87\n12,929\n426\n18.5\nSE\n80%\n1.52\n\n\n\nF20-647\n94\n1,554\n431\n36.8\nNE\n0%\n0.06"
+  },
+  {
+    "objectID": "houses/option2.html#data-and-method",
+    "href": "houses/option2.html#data-and-method",
+    "title": "Option 2 — Bagnolo Piemonte",
+    "section": "Data and method",
+    "text": "Data and method\n\nCadastre: Bagnolo Piemonte GisMaster portal, ArcGIS REST service at https://gis03.sportellounicodigitale.it/arcgis/rest/services. Harvested 2026-09-25. Parcels are stored exactly as served. Other layers are cropped to the study area.\nTerrain: Regione Piemonte, Ripresa aerea ICE 2009–2011 – DTM 5 m (CC BY 4.0), from the regional WCS service.\nHarvested data and code: data/option2 and R/ in the repository."
+  }
+]
