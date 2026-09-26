@@ -310,6 +310,25 @@ for (nm in names(imagery)) {
                                       subdomains = b$sub %||% "abc"))
 }
 
+# The comune's GisMaster MapServers are also served as Web Mercator tile caches
+# (transparent PNG, the portal's own styling): add each cached one as an overlay.
+tile_services <- Filter(function(d) {
+  isTRUE(d$service$singleFusedMapCache) &&
+    (d$service$tileInfo$spatialReference$latestWkid %||% 0) == 3857
+}, lapply(list.files(file.path(src, "metadata", "services"), full.names = TRUE), jsonlite::read_json))
+tile_groups <- character()
+for (d in tile_services) {
+  lods <- vapply(d$service$tileInfo$lods, \(l) l$scale, 0)
+  zooms <- vapply(d$service$tileInfo$lods, \(l) l$level, 0L)
+  in_range <- lods <= d$service$minScale * 1.001 & lods >= d$service$maxScale * 0.999
+  group <- sprintf("Tiles: %s (%s)", tr_service(d$service$mapName %||% ""), sub(".*_", "", basename(dirname(d$url))))
+  m <- addTiles(m, urlTemplate = paste0(d$url, "/tile/{z}/{y}/{x}"), group = group,
+                attribution = "Cadastre/PRG tiles © Comune via GisMaster",
+                options = tileOptions(minZoom = min(zooms[in_range]), maxNativeZoom = max(zooms[in_range]),
+                                      maxZoom = 22, className = "gm-tiles"))
+  tile_groups[group] <- d$service$mapName %||% ""
+}
+
 groups_overlay <- c("Parcels", "Parcel labels", "Buffer 100 m", "Contours 1 m",
                     "Buildings", "Slope raster", "Mean slope", "Mean elevation", "South exposure")
 
@@ -386,8 +405,11 @@ for (l in layer_defs) {
   }
   layer_groups[group] <- tl$theme
 }
-groups_overlay <- c(groups_overlay[groups_overlay != "Buildings"], names(layer_groups))
+groups_overlay <- c(groups_overlay[groups_overlay != "Buildings"], names(layer_groups), names(tile_groups))
 hidden_layers <- names(layer_groups)[!vapply(layer_groups, \(t) (themes[[t]] %||% themes$other)$visible, TRUE)]
+# Show the first cadastral tile cache by default; the others are one click away.
+shown_tiles <- head(names(tile_groups)[grepl("catastal", tile_groups, ignore.case = TRUE)], 1)
+hidden_layers <- c(hidden_layers, setdiff(names(tile_groups), shown_tiles))
 
 m <- m |>
   addCircleMarkers(data = point_ll, radius = 6, color = "#ffffff", weight = 2,
@@ -431,6 +453,7 @@ function(el, x) {
 }")
 
 css <- tags$style(HTML("
+  .gm-tiles { filter: drop-shadow(0 0 1px #fff); }
   .pp h4 { margin: 0 0 6px; font: 600 14px system-ui, sans-serif; }
   .pp table { border-collapse: collapse; font: 12px system-ui, sans-serif; }
   .pp th { text-align: left; font-weight: 500; color: #555; padding: 2px 10px 2px 0; vertical-align: top; white-space: nowrap; }
