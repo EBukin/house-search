@@ -1,0 +1,8 @@
+{
+  "source": "https://www.gruppomonviso.it/casa-indipendente_in_vendita_via-pian-lissard_barge_27833.html",
+  "description": "Listing 27833: casa indipendente, Via Pian Lissard, Barge (CN). Full-size photos (the gallery's lightbox links, not the small_ thumbnails).",
+  "image_url_pattern": "https://storage.googleapis.com/birgus/annunci/27833/<photo_id>.jpg",
+  "files": {"page.html": "listing page as served", "image_urls.txt": "image URLs in page order", "images/": "NN_<photo_id>.jpg, NN = order on the page"},
+  "n_images": 52,
+  "timestamp": "2026-09-27T15:58:49Z"
+}
